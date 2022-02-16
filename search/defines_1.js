@@ -1,0 +1,14 @@
+var searchData=
+[
+  ['drm_5fclient_5fcap_5fadvance_5fgamma_5fmodes_0',['DRM_CLIENT_CAP_ADVANCE_GAMMA_MODES',['../prelim_2drm_2drm_8h.html#a48ad530ad695411274c2fd54ddbf8caa',1,'drm.h']]],
+  ['drm_5fclient_5fcap_5faspect_5fratio_1',['DRM_CLIENT_CAP_ASPECT_RATIO',['../dg1_2drm_2drm_8h.html#a44dbfa0df16d2c4fd013da0720a14862',1,'DRM_CLIENT_CAP_ASPECT_RATIO():&#160;drm.h'],['../prelim_2drm_2drm_8h.html#a44dbfa0df16d2c4fd013da0720a14862',1,'DRM_CLIENT_CAP_ASPECT_RATIO():&#160;drm.h']]],
+  ['drm_5fclient_5fcap_5fatomic_2',['DRM_CLIENT_CAP_ATOMIC',['../dg1_2drm_2drm_8h.html#a4cd133627d1aec40ed709cc2d926b36b',1,'DRM_CLIENT_CAP_ATOMIC():&#160;drm.h'],['../prelim_2drm_2drm_8h.html#a4cd133627d1aec40ed709cc2d926b36b',1,'DRM_CLIENT_CAP_ATOMIC():&#160;drm.h']]],
+  ['drm_5fclient_5fcap_5fstereo_5f3d_3',['DRM_CLIENT_CAP_STEREO_3D',['../dg1_2drm_2drm_8h.html#ad07352f5301c3cf3a8e20be4d3809487',1,'DRM_CLIENT_CAP_STEREO_3D():&#160;drm.h'],['../prelim_2drm_2drm_8h.html#ad07352f5301c3cf3a8e20be4d3809487',1,'DRM_CLIENT_CAP_STEREO_3D():&#160;drm.h']]],
+  ['drm_5fclient_5fcap_5funiversal_5fplanes_4',['DRM_CLIENT_CAP_UNIVERSAL_PLANES',['../dg1_2drm_2drm_8h.html#a442bbdbed0258e82a195fffde19c6bd5',1,'DRM_CLIENT_CAP_UNIVERSAL_PLANES():&#160;drm.h'],['../prelim_2drm_2drm_8h.html#a442bbdbed0258e82a195fffde19c6bd5',1,'DRM_CLIENT_CAP_UNIVERSAL_PLANES():&#160;drm.h']]],
+  ['drm_5fclient_5fcap_5fwriteback_5fconnectors_5',['DRM_CLIENT_CAP_WRITEBACK_CONNECTORS',['../prelim_2drm_2drm_8h.html#a9f389eb0537dcf9d2ab9926ed79e5885',1,'DRM_CLIENT_CAP_WRITEBACK_CONNECTORS():&#160;drm.h'],['../dg1_2drm_2drm_8h.html#a9f389eb0537dcf9d2ab9926ed79e5885',1,'DRM_CLIENT_CAP_WRITEBACK_CONNECTORS():&#160;drm.h']]],
+  ['drm_5fcommand_5fbase_6',['DRM_COMMAND_BASE',['../dg1_2drm_2drm_8h.html#a97f7e043e5e093fd9683ddf6c22f8265',1,'DRM_COMMAND_BASE():&#160;drm.h'],['../prelim_2drm_2drm_8h.html#a97f7e043e5e093fd9683ddf6c22f8265',1,'DRM_COMMAND_BASE():&#160;drm.h']]],
+  ['drm_5fmax_5forder_7',['DRM_MAX_ORDER',['../dg1_2drm_2drm_8h.html#a78763a356313abfe4b2631cceef55c21',1,'DRM_MAX_ORDER():&#160;drm.h'],['../prelim_2drm_2drm_8h.html#a78763a356313abfe4b2631cceef55c21',1,'DRM_MAX_ORDER():&#160;drm.h']]],
+  ['drm_5fmin_5forder_8',['DRM_MIN_ORDER',['../dg1_2drm_2drm_8h.html#a7e4bf460f079266f7b9e9df2662a3031',1,'DRM_MIN_ORDER():&#160;drm.h'],['../prelim_2drm_2drm_8h.html#a7e4bf460f079266f7b9e9df2662a3031',1,'DRM_MIN_ORDER():&#160;drm.h']]],
+  ['drm_5fname_9',['DRM_NAME',['../dg1_2drm_2drm_8h.html#a2620d5fcdd3a444cf49521d5db37c031',1,'DRM_NAME():&#160;drm.h'],['../prelim_2drm_2drm_8h.html#a2620d5fcdd3a444cf49521d5db37c031',1,'DRM_NAME():&#160;drm.h']]],
+  ['drm_5fram_5fpercent_10',['DRM_RAM_PERCENT',['../dg1_2drm_2drm_8h.html#a6f06905223ae97aa294f9797b0b074ad',1,'DRM_RAM_PERCENT():&#160;drm.h'],['../prelim_2drm_2drm_8h.html#a6f06905223ae97aa294f9797b0b074ad',1,'DRM_RAM_PERCENT():&#160;drm.h']]]
+];

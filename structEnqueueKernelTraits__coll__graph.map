@@ -1,0 +1,18 @@
+<map id="EnqueueKernelTraits" name="EnqueueKernelTraits">
+<area shape="rect" id="node1" title=" " alt="" coords="5,564,148,700"/>
+<area shape="rect" id="node2" href="$structEnqueueTraits.html" title=" " alt="" coords="291,351,449,428"/>
+<area shape="rect" id="node3" href="$struct__cl__event.html" title=" " alt="" coords="829,5,908,83"/>
+<area shape="rect" id="node6" href="$structSDispatchTable.html" title=" " alt="" coords="765,277,973,501"/>
+<area shape="rect" id="node4" href="$structClDispatch.html" title=" " alt="" coords="1221,939,1325,1016"/>
+<area shape="rect" id="node7" href="$struct__cl__platform__id.html" title=" " alt="" coords="1357,1079,1468,1156"/>
+<area shape="rect" id="node8" href="$struct__cl__device__id.html" title=" " alt="" coords="1493,1079,1594,1156"/>
+<area shape="rect" id="node9" href="$struct__cl__context.html" title=" " alt="" coords="1618,1079,1746,1156"/>
+<area shape="rect" id="node10" href="$struct__cl__command__queue.html" title=" " alt="" coords="547,1079,692,1156"/>
+<area shape="rect" id="node11" href="$struct__cl__mem.html" title=" " alt="" coords="1093,1079,1167,1156"/>
+<area shape="rect" id="node12" href="$struct__cl__sampler.html" title=" " alt="" coords="859,1079,951,1156"/>
+<area shape="rect" id="node13" href="$struct__cl__program.html" title=" " alt="" coords="975,1079,1069,1156"/>
+<area shape="rect" id="node14" href="$struct__cl__kernel.html" title=" " alt="" coords="753,1079,835,1156"/>
+<area shape="rect" id="node16" href="$struct__cl__accelerator__intel.html" title=" " alt="" coords="1191,1079,1333,1156"/>
+<area shape="rect" id="node5" href="$structSEntryPointsTable.html" title=" " alt="" coords="701,593,831,671"/>
+<area shape="rect" id="node15" href="$structSCRTDispatchTable.html" title=" " alt="" coords="952,1263,1169,1575"/>
+</map>

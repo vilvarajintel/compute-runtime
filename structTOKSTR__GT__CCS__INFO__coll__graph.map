@@ -1,0 +1,10 @@
+<map id="TOKSTR_GT_CCS_INFO" name="TOKSTR_GT_CCS_INFO">
+<area shape="rect" id="node1" title=" " alt="" coords="406,1091,598,1183"/>
+<area shape="rect" id="node2" href="$structTokenVariableLength.html" title=" " alt="" coords="5,432,193,583"/>
+<area shape="rect" id="node5" href="$structTOKSTR__GT__CCS__INFO_1_1TOKSTR__CCSInstances.html" title=" " alt="" coords="231,921,416,1028"/>
+<area shape="rect" id="node6" href="$structTOKSTR__GT__CCS__INFO_1_1TOKSTR__CCSInstances_1_1TOKSTR__CCSBitStruct.html" title=" " alt="" coords="147,737,326,859"/>
+<area shape="rect" id="node3" href="$structTokenHeader.html" title=" " alt="" coords="307,277,441,369"/>
+<area shape="rect" id="node7" href="$structTokenDword.html" title=" " alt="" coords="317,454,431,561"/>
+<area shape="rect" id="node8" href="$structTokenBool.html" title=" " alt="" coords="593,607,696,713"/>
+<area shape="rect" id="node4" href="$unionTokenHeader_1_1Flags.html" title=" " alt="" coords="295,5,453,215"/>
+</map>

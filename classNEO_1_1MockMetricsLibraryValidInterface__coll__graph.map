@@ -1,0 +1,31 @@
+<map id="NEO::MockMetricsLibraryValidInterface" name="NEO::MockMetricsLibraryValidInterface">
+<area shape="rect" id="node1" title=" " alt="" coords="1583,1147,1818,1473"/>
+<area shape="rect" id="node2" href="$classNEO_1_1MetricsLibraryInterface.html" title=" " alt="" coords="1606,1020,1795,1097"/>
+<area shape="rect" id="node3" title=" " alt="" coords="1328,836,1511,913"/>
+<area shape="rect" id="node4" title=" " alt="" coords="1535,836,1717,913"/>
+<area shape="rect" id="node5" href="$structMetricsLibraryApi_1_1Interface__1__0.html" title="Metrics Library interface." alt="" coords="1741,829,1871,921"/>
+<area shape="rect" id="node6" href="$structMetricsLibraryApi_1_1TypedValue__1__0.html" title="Typed value." alt="" coords="1959,447,2088,715"/>
+<area shape="rect" id="node7" href="$structMetricsLibraryApi_1_1CommandBufferData__1__0.html" title="Command buffer data." alt="" coords="837,498,1007,663"/>
+<area shape="rect" id="node8" title=" " alt="" coords="1673,241,1808,318"/>
+<area shape="rect" id="node19" href="$structMetricsLibraryApi_1_1QueryCreateData__1__0.html" title="Query creation data." alt="" coords="1263,527,1413,634"/>
+<area shape="rect" id="node20" href="$structMetricsLibraryApi_1_1OverrideCreateData__1__0.html" title="Override create data." alt="" coords="1437,535,1601,627"/>
+<area shape="rect" id="node21" href="$structMetricsLibraryApi_1_1MarkerCreateData__1__0.html" title="Marker creation data." alt="" coords="1626,535,1781,627"/>
+<area shape="rect" id="node23" href="$structMetricsLibraryApi_1_1ConfigurationCreateData__1__0.html" title="Configuration creation data." alt="" coords="1048,535,1239,627"/>
+<area shape="rect" id="node9" href="$structMetricsLibraryApi_1_1GpuMemory__1__0.html" title="Gpu memory data." alt="" coords="5,5,135,127"/>
+<area shape="rect" id="node13" href="$structMetricsLibraryApi_1_1CommandBufferQueryHwCountersCopyReports__1__0.html" title="Copy query hw counter reports command buffer data." alt="" coords="410,211,631,347"/>
+<area shape="rect" id="node10" href="$structMetricsLibraryApi_1_1CommandBufferQueryHwCounters__1__0.html" title="Query hw counters command buffer data." alt="" coords="1183,204,1432,355"/>
+<area shape="rect" id="node11" title=" " alt="" coords="458,27,583,105"/>
+<area shape="rect" id="node14" href="$structMetricsLibraryApi_1_1CommandBufferQueryPipelineTimestamps__1__0.html" title="Query pipeline timestamps command buffer data." alt="" coords="191,219,386,340"/>
+<area shape="rect" id="node25" href="$structMetricsLibraryApi_1_1GetReportQuery__1__0.html" title="Get query report." alt="" coords="1873,211,2016,347"/>
+<area shape="rect" id="node12" title=" " alt="" coords="1627,27,1793,105"/>
+<area shape="rect" id="node15" href="$structMetricsLibraryApi_1_1CommandBufferOverride__1__0.html" title="Overrides commands data." alt="" coords="1457,233,1649,325"/>
+<area shape="rect" id="node16" title=" " alt="" coords="2164,27,2304,105"/>
+<area shape="rect" id="node26" href="$structMetricsLibraryApi_1_1GetReportOverride__1__0.html" title="Get override report." alt="" coords="2155,226,2313,333"/>
+<area shape="rect" id="node17" href="$structMetricsLibraryApi_1_1CommandBufferMarkerStreamUser__1__0.html" title="Marker stream user commands data." alt="" coords="655,226,909,333"/>
+<area shape="rect" id="node18" href="$structMetricsLibraryApi_1_1CommandBufferMarkerStreamUserExtended__1__0.html" title="Marker stream user extended commands data." alt="" coords="933,226,1159,333"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1805,542,1935,619"/>
+<area shape="rect" id="node24" href="$structMetricsLibraryApi_1_1GetReportData__1__0.html" title="Get data." alt="" coords="2163,527,2299,634"/>
+<area shape="rect" id="node27" href="$structMetricsLibraryApi_1_1ClientCallbacks__1__0.html" title="Metrics Library interface callbacks." alt="" coords="2393,792,2579,957"/>
+<area shape="rect" id="node28" href="$structMetricsLibraryApi_1_1GpuMemoryAllocateData__1__0.html" title="Gpu memory allocate data." alt="" coords="2389,513,2583,649"/>
+<area shape="rect" id="node29" href="$structMetricsLibraryApi_1_1CpuMemoryAllocateData__1__0.html" title="Cpu memory allocate data." alt="" coords="2608,527,2801,634"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="NEO::MockGlSharing" name="NEO::MockGlSharing">
+<area shape="rect" id="node1" title=" " alt="" coords="259,307,449,531"/>
+<area shape="rect" id="node2" href="$struct__tagCLGLResourceInfo.html" title=" " alt="" coords="5,5,164,229"/>
+<area shape="rect" id="node3" href="$struct__tagGLCLResourceInfo.html" title=" " alt="" coords="188,5,347,229"/>
+<area shape="rect" id="node4" href="$struct__tagCLGLBufferInfo.html" title=" " alt="" coords="371,20,513,215"/>
+<area shape="rect" id="node5" href="$structNEO_1_1GLMockReturnedValues.html" title=" " alt="" coords="537,35,736,200"/>
+</map>

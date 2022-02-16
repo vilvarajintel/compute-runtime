@@ -1,0 +1,8 @@
+<map id="TOKSTR_GT_VDBOX_INFO::TOKSTR_VDBoxInstances" name="TOKSTR_GT_VDBOX_INFO::TOKSTR_VDBoxInstances">
+<area shape="rect" id="node1" title=" " alt="" coords="116,932,315,1039"/>
+<area shape="rect" id="node2" href="$structTokenVariableLength.html" title=" " alt="" coords="5,432,193,583"/>
+<area shape="rect" id="node5" href="$structTOKSTR__GT__VDBOX__INFO_1_1TOKSTR__VDBoxInstances_1_1TOKSTR__VDBitStruct.html" title=" " alt="" coords="119,748,311,869"/>
+<area shape="rect" id="node3" href="$structTokenHeader.html" title=" " alt="" coords="119,277,253,369"/>
+<area shape="rect" id="node6" href="$structTokenDword.html" title=" " alt="" coords="218,454,333,561"/>
+<area shape="rect" id="node4" href="$unionTokenHeader_1_1Flags.html" title=" " alt="" coords="107,5,265,215"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="MockCommandStreamReceiver" name="MockCommandStreamReceiver">
+<area shape="rect" id="node1" title=" " alt="" coords="379,600,608,1103"/>
+<area shape="rect" id="node3" href="$classMockCommandStreamReceiverWithFailingFlushBatchedSubmission.html" title=" " alt="" coords="5,1158,240,1265"/>
+<area shape="rect" id="node4" href="$classMockCommandStreamReceiverWithFailingSubmitBatch.html" title=" " alt="" coords="265,1151,482,1272"/>
+<area shape="rect" id="node5" href="$classMockCommandStreamReceiverWithOutOfMemorySubmitBatch.html" title=" " alt="" coords="506,1151,723,1272"/>
+<area shape="rect" id="node6" href="$classMyCommandStreamReceiverMock.html" title=" " alt="" coords="748,1158,991,1265"/>
+<area shape="rect" id="node2" href="$classNEO_1_1CommandStreamReceiver.html" title=" " alt="" coords="375,5,612,552"/>
+</map>

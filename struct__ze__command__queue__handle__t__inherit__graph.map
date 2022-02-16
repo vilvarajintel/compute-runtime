@@ -1,0 +1,12 @@
+<map id="_ze_command_queue_handle_t" name="_ze_command_queue_handle_t">
+<area shape="rect" id="node1" title=" " alt="" coords="257,5,461,83"/>
+<area shape="rect" id="node2" href="$structL0_1_1CommandQueue.html" title=" " alt="" coords="223,131,495,457"/>
+<area shape="rect" id="node3" href="$structL0_1_1ult_1_1WhiteBox.html" title=" " alt="" coords="173,703,328,795"/>
+<area shape="rect" id="node4" href="$structL0_1_1CommandQueueImp.html" title=" " alt="" coords="352,505,581,993"/>
+<area shape="rect" id="node5" href="$structL0_1_1CommandQueueHw.html" title=" " alt="" coords="241,1041,447,1309"/>
+<area shape="rect" id="node9" href="$structL0_1_1ult_1_1WhiteBox_3_1_1L0_1_1CommandQueue_01_4.html" title=" " alt="" coords="488,1063,691,1287"/>
+<area shape="rect" id="node6" href="$classL0_1_1ult_1_1MockCommandQueue.html" title=" " alt="" coords="28,1394,220,1515"/>
+<area shape="rect" id="node8" href="$structL0_1_1ult_1_1MockCommandQueueHw.html" title=" " alt="" coords="245,1387,443,1523"/>
+<area shape="rect" id="node7" href="$classL0_1_1ult_1_1MockCommandQueueSubmitBatchBuffer.html" title=" " alt="" coords="5,1600,243,1721"/>
+<area shape="rect" id="node10" href="$structL0_1_1ult_1_1Mock_3_01CommandQueue_01_4.html" title=" " alt="" coords="467,1357,746,1552"/>
+</map>

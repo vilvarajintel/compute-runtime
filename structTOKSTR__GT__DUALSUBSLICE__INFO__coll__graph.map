@@ -1,0 +1,9 @@
+<map id="TOKSTR_GT_DUALSUBSLICE_INFO" name="TOKSTR_GT_DUALSUBSLICE_INFO">
+<area shape="rect" id="node1" title=" " alt="" coords="145,844,393,965"/>
+<area shape="rect" id="node2" href="$structTokenVariableLength.html" title=" " alt="" coords="5,432,193,583"/>
+<area shape="rect" id="node6" href="$structTOKSTR__GT__SUBSLICE__INFO.html" title=" " alt="" coords="163,660,375,781"/>
+<area shape="rect" id="node3" href="$structTokenHeader.html" title=" " alt="" coords="208,277,343,369"/>
+<area shape="rect" id="node5" href="$structTokenBool.html" title=" " alt="" coords="357,454,460,561"/>
+<area shape="rect" id="node7" href="$structTokenDword.html" title=" " alt="" coords="218,454,333,561"/>
+<area shape="rect" id="node4" href="$unionTokenHeader_1_1Flags.html" title=" " alt="" coords="196,5,355,215"/>
+</map>

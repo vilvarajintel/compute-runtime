@@ -1,0 +1,15 @@
+<map id="MetricsLibraryApi::ClientData_1_0" name="MetricsLibraryApi::ClientData_1_0">
+<area shape="rect" id="node1" title="Client data." alt="" coords="224,388,369,509"/>
+<area shape="rect" id="node2" href="$structMetricsLibraryApi_1_1ClientDataWindows__1__0.html" title="Windows client data." alt="" coords="5,189,201,325"/>
+<area shape="rect" id="node3" href="$structMetricsLibraryApi_1_1ClientDataLinux__1__0.html" title="Linux client data." alt="" coords="226,204,367,311"/>
+<area shape="rect" id="node4" href="$structMetricsLibraryApi_1_1ClientDataLinuxAdapter__1__0.html" title="Linux client adapter data." alt="" coords="9,5,195,127"/>
+<area shape="rect" id="node5" href="$structMetricsLibraryApi_1_1ClientOptionsData__1__0.html" title="Client options data." alt="" coords="875,204,1030,311"/>
+<area shape="rect" id="node6" href="$structMetricsLibraryApi_1_1ClientOptionsPoshData__1__0.html" title="Client options posh data." alt="" coords="220,20,405,112"/>
+<area shape="rect" id="node7" href="$structMetricsLibraryApi_1_1ClientOptionsPtbrData__1__0.html" title="Client options ptbr data." alt="" coords="430,20,609,112"/>
+<area shape="rect" id="node8" href="$structMetricsLibraryApi_1_1ClientOptionsComputeData__1__0.html" title="Client options compute data." alt="" coords="633,20,840,112"/>
+<area shape="rect" id="node9" href="$structMetricsLibraryApi_1_1ClientOptionsTbsData__1__0.html" title="Client options time based sampling data." alt="" coords="864,20,1041,112"/>
+<area shape="rect" id="node10" href="$structMetricsLibraryApi_1_1ClientOptionsSubDeviceData__1__0.html" title="Client options sub device data." alt="" coords="1066,20,1285,112"/>
+<area shape="rect" id="node11" href="$structMetricsLibraryApi_1_1ClientOptionsSubDeviceIndexData__1__0.html" title="Client options sub device index data." alt="" coords="1309,13,1503,119"/>
+<area shape="rect" id="node12" href="$structMetricsLibraryApi_1_1ClientOptionsSubDeviceCountData__1__0.html" title="Client options sub device count data." alt="" coords="1527,13,1725,119"/>
+<area shape="rect" id="node13" href="$structMetricsLibraryApi_1_1ClientOptionsWorkloadPartition__1__0.html" title="Client options workload partition data." alt="" coords="1749,20,1980,112"/>
+</map>

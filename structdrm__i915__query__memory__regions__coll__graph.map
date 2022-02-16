@@ -1,0 +1,5 @@
+<map id="drm_i915_query_memory_regions" name="drm_i915_query_memory_regions">
+<area shape="rect" id="node1" title=" " alt="" coords="21,388,188,495"/>
+<area shape="rect" id="node2" href="$structdrm__i915__memory__region__info.html" title=" " alt="" coords="5,175,204,325"/>
+<area shape="rect" id="node3" href="$structdrm__i915__gem__memory__class__instance.html" title=" " alt="" coords="25,5,185,112"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="MockWddmMemoryManagerFixture" name="MockWddmMemoryManagerFixture">
+<area shape="rect" id="node1" title=" " alt="" coords="213,5,440,200"/>
+<area shape="rect" id="node2" href="$classWddmMemoryManagerMock.html" title=" " alt="" coords="5,263,192,355"/>
+<area shape="rect" id="node3" href="$classWddmMemoryManagerSimpleTest.html" title=" " alt="" coords="216,263,437,355"/>
+<area shape="rect" id="node6" href="$classWddmMemoryManagerSimpleTestWithLocalMemory.html" title=" " alt="" coords="461,248,683,369"/>
+<area shape="rect" id="node4" href="$structWddmMemoryManagerDevicePoolAlignmentTests.html" title=" " alt="" coords="88,447,309,539"/>
+<area shape="rect" id="node5" href="$structWddmMemoryManagerSimple64BitTest.html" title=" " alt="" coords="333,417,573,568"/>
+</map>

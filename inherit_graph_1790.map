@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classNEO_1_1SettingsReader.html" title=" " alt="" coords="5,189,151,215"/>
+<area shape="rect" id="node2" href="$classMockRegistryReaderWithDriverStorePath.html" title=" " alt="" coords="199,5,401,47"/>
+<area shape="rect" id="node3" href="$classMockSettingsReader.html" title=" " alt="" coords="229,71,371,98"/>
+<area shape="rect" id="node4" href="$classNEO_1_1EnvironmentVariableReader.html" title=" " alt="" coords="213,123,387,164"/>
+<area shape="rect" id="node5" href="$classNEO_1_1MockRegistryReader.html" title=" " alt="" coords="212,189,388,215"/>
+<area shape="rect" id="node6" href="$classNEO_1_1RegistryReader.html" title=" " alt="" coords="228,239,372,266"/>
+<area shape="rect" id="node8" href="$classNEO_1_1SettingsFileReader.html" title=" " alt="" coords="217,290,383,317"/>
+<area shape="rect" id="node10" href="$classRegistryReaderMock.html" title=" " alt="" coords="229,341,371,367"/>
+<area shape="rect" id="node7" href="$classNEO_1_1TestedRegistryReader.html" title=" " alt="" coords="449,239,633,266"/>
+<area shape="rect" id="node9" href="$classTestSettingsFileReader.html" title=" " alt="" coords="462,290,621,317"/>
+</map>

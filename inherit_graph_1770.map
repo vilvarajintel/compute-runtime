@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classNEO_1_1ReferenceTrackedObject.html" title=" " alt="" coords="5,103,205,145"/>
+<area shape="rect" id="node2" href="$classNEO_1_1Device.html" title=" " alt="" coords="253,111,349,137"/>
+<area shape="rect" id="node3" href="$classNEO_1_1RootDevice.html" title=" " alt="" coords="397,85,520,112"/>
+<area shape="rect" id="node9" href="$classNEO_1_1SubDevice.html" title=" " alt="" coords="399,136,518,163"/>
+<area shape="rect" id="node4" href="$classNEO_1_1MockDevice.html" title=" " alt="" coords="579,85,707,112"/>
+<area shape="rect" id="node5" href="$classNEO_1_1FailDevice.html" title=" " alt="" coords="817,5,935,32"/>
+<area shape="rect" id="node6" href="$classNEO_1_1FailDeviceAfterOne.html" title=" " alt="" coords="791,56,961,83"/>
+<area shape="rect" id="node7" href="$classNEO_1_1MockAlignedMallocManagerDevice.html" title=" " alt="" coords="767,107,985,149"/>
+<area shape="rect" id="node8" href="$classNEO_1_1MockDeviceWithDebuggerActive.html" title=" " alt="" coords="771,173,981,214"/>
+<area shape="rect" id="node10" href="$structNEO_1_1MockSubDevice.html" title=" " alt="" coords="568,136,719,163"/>
+</map>

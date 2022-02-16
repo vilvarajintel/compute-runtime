@@ -1,0 +1,6 @@
+<map id="WorkGroupSizeBase" name="WorkGroupSizeBase">
+<area shape="rect" id="node1" title=" " alt="" coords="144,5,339,97"/>
+<area shape="rect" id="node2" href="$structWorkGroupSize2D.html" title=" " alt="" coords="5,145,133,223"/>
+<area shape="rect" id="node3" href="$structWorkGroupSizeChannels.html" title=" " alt="" coords="158,145,325,223"/>
+<area shape="rect" id="node4" href="$structWorkGroupSizeRegion.html" title=" " alt="" coords="349,145,501,223"/>
+</map>

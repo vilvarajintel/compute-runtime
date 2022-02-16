@@ -1,0 +1,34 @@
+<map id="opencl/source" name="opencl/source">
+<area shape="rect" id="node2" href="dir_fdb674c44a05fd36a8b0483bb85a7c6c.html" title="accelerators" alt="" coords="3164,63,3257,111"/>
+<area shape="rect" id="node3" href="dir_977b89500c2791680066f7093337895d.html" title="api" alt="" coords="3068,63,3140,111"/>
+<area shape="rect" id="node4" href="dir_f9a54b75d44fb23b2323abce720ad290.html" title="built_ins" alt="" coords="2972,63,3044,111"/>
+<area shape="rect" id="node5" href="dir_15e9962747b1dde19299fe4cb1415f9d.html" title="cl_device" alt="" coords="2871,63,2948,111"/>
+<area shape="rect" id="node6" href="dir_790987357b11313c105317014a474950.html" title="command_queue" alt="" coords="2725,63,2846,111"/>
+<area shape="rect" id="node7" href="dir_b48783707b68cb80dd5bb91a3142fbe0.html" title="compiler_interface" alt="" coords="2572,63,2700,111"/>
+<area shape="rect" id="node8" href="dir_086050f176710521a3c7752cdff0322a.html" title="context" alt="" coords="2476,63,2548,111"/>
+<area shape="rect" id="node9" href="dir_72284d68c08acc5673fbb05405716f76.html" title="dll" alt="" coords="2380,63,2452,111"/>
+<area shape="rect" id="node10" href="dir_01591ed2658866baad798a8b3cd9a3d8.html" title="event" alt="" coords="2284,63,2356,111"/>
+<area shape="rect" id="node11" href="dir_08017a9814c7a2736449f35567c4e693.html" title="execution_environment" alt="" coords="2105,63,2260,111"/>
+<area shape="rect" id="node12" href="dir_abfdd9c0cb91a22d0314cc5925d0c2df.html" title="gen11" alt="" coords="2009,63,2081,111"/>
+<area shape="rect" id="node13" href="dir_bd8f66dfed9369f946200812f856cbac.html" title="gen12lp" alt="" coords="1913,63,1985,111"/>
+<area shape="rect" id="node14" href="dir_bbaaf9e3d7a5825ce77aaac992cd6bca.html" title="gen8" alt="" coords="1817,63,1889,111"/>
+<area shape="rect" id="node15" href="dir_c2b807f39461819d42a5338896eddb23.html" title="gen9" alt="" coords="1721,63,1793,111"/>
+<area shape="rect" id="node16" href="dir_4f6c693e9e92ee8ce88a7e0b102db93a.html" title="gtpin" alt="" coords="1625,63,1697,111"/>
+<area shape="rect" id="node17" href="dir_20da72e2be91bc600bc166d957066759.html" title="guidelines" alt="" coords="1521,63,1601,111"/>
+<area shape="rect" id="node18" href="dir_2b0d7cbb7dc76df40fe6bebe37856011.html" title="helpers" alt="" coords="1425,63,1497,111"/>
+<area shape="rect" id="node19" href="dir_ae1b31558d0cb84c9e1aec5dff7b5bc0.html" title="kernel" alt="" coords="1329,63,1401,111"/>
+<area shape="rect" id="node20" href="dir_c001b4ff9b15b30cfdfc44a9f9397fce.html" title="mem_obj" alt="" coords="1231,63,1305,111"/>
+<area shape="rect" id="node21" href="dir_d9971cbf7317577ce3d23611267576cd.html" title="memory_manager" alt="" coords="1081,63,1207,111"/>
+<area shape="rect" id="node22" href="dir_52526ff83bf31d4d8f06e4d1fcf82381.html" title="os_interface" alt="" coords="964,63,1057,111"/>
+<area shape="rect" id="node23" href="dir_d754cc3699f6a56bb06201761206927b.html" title="platform" alt="" coords="868,63,940,111"/>
+<area shape="rect" id="node24" href="dir_8e9d03ca92a5560e8554e85368df4d50.html" title="program" alt="" coords="772,63,844,111"/>
+<area shape="rect" id="node25" href="dir_8cb3748c91d016dc6255a99ed3880c2a.html" title="sampler" alt="" coords="676,63,748,111"/>
+<area shape="rect" id="node26" href="dir_0515d778494482882746a84c427eea9c.html" title="sharings" alt="" coords="580,63,652,111"/>
+<area shape="rect" id="node27" href="dir_107d4387c9191315b87ef956f4e21301.html" title="tracing" alt="" coords="484,63,556,111"/>
+<area shape="rect" id="node28" href="dir_9fd5a8506b6c13d7d3a2728a1d51cf5a.html" title="utilities" alt="" coords="388,63,460,111"/>
+<area shape="rect" id="node29" href="dir_78d1cacb5aa395fe079950c4439fbfd6.html" title="xe_hp_core" alt="" coords="276,63,364,111"/>
+<area shape="rect" id="node30" href="dir_cb4e9a096b8aeeb3cd22de8bdee7ae34.html" title="xe_hpc_core" alt="" coords="157,63,251,111"/>
+<area shape="rect" id="node31" href="dir_e88875e140194c897e97d253ca28ab7a.html" title="xe_hpg_core" alt="" coords="38,63,133,111"/>
+<area shape="rect" id="clust2" href="dir_79ce80e60a0c5c00c8139a18dcdf49be.html" alt="" coords="27,52,3364,121"/>
+<area shape="rect" id="clust1" href="dir_3c69c44e2a3422d47d59ead424f1f0d0.html" title="opencl" alt="" coords="16,16,3375,132"/>
+</map>

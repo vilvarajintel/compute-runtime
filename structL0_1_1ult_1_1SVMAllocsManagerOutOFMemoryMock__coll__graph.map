@@ -1,0 +1,12 @@
+<map id="L0::ult::SVMAllocsManagerOutOFMemoryMock" name="L0::ult::SVMAllocsManagerOutOFMemoryMock">
+<area shape="rect" id="node1" title=" " alt="" coords="191,1859,424,1980"/>
+<area shape="rect" id="node2" href="$classNEO_1_1SVMAllocsManager.html" title=" " alt="" coords="183,1453,431,1809"/>
+<area shape="rect" id="node3" href="$classNEO_1_1SVMAllocsManager_1_1MapBasedAllocationTracker.html" title=" " alt="" coords="5,954,196,1090"/>
+<area shape="rect" id="node4" href="$structNEO_1_1SVMAllocsManager_1_1MapOperationsTracker.html" title=" " alt="" coords="220,954,395,1090"/>
+<area shape="rect" id="node5" href="$classNEO_1_1MemoryManager.html" title=" " alt="" coords="419,653,660,1391"/>
+<area shape="rect" id="node6" href="$classNEO_1_1ExecutionEnvironment.html" title=" " alt="" coords="68,264,299,591"/>
+<area shape="rect" id="node7" href="$classNEO_1_1ReferenceTrackedObject.html" title=" " alt="" coords="83,5,283,215"/>
+<area shape="rect" id="node8" href="$structNEO_1_1OSMemory_1_1ReservedCpuAddressRange.html" title=" " alt="" coords="323,359,529,495"/>
+<area shape="rect" id="node9" href="$structNEO_1_1HeapAssigner.html" title=" " alt="" coords="553,308,755,547"/>
+<area shape="rect" id="node10" href="$classNEO_1_1AlignmentSelector.html" title=" " alt="" coords="779,352,971,503"/>
+</map>

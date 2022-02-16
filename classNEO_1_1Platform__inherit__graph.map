@@ -1,0 +1,9 @@
+<map id="NEO::Platform" name="NEO::Platform">
+<area shape="rect" id="node1" title=" " alt="" coords="61,807,258,1177"/>
+<area shape="rect" id="node6" href="$classNEO_1_1MockPlatform.html" title=" " alt="" coords="66,1225,253,1347"/>
+<area shape="rect" id="node2" href="$classNEO_1_1BaseObject.html" title=" " alt="" coords="70,388,249,759"/>
+<area shape="rect" id="node3" href="$struct__cl__platform__id.html" title=" " alt="" coords="5,197,116,274"/>
+<area shape="rect" id="node4" href="$structClDispatch.html" title=" " alt="" coords="9,5,113,83"/>
+<area shape="rect" id="node5" href="$classNEO_1_1ReferenceTrackedObject.html" title=" " alt="" coords="141,131,378,340"/>
+<area shape="rect" id="node7" href="$structMockPlatformWithMockExecutionEnvironment.html" title=" " alt="" coords="45,1395,273,1501"/>
+</map>

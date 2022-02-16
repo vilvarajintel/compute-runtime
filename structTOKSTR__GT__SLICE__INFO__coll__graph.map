@@ -1,0 +1,10 @@
+<map id="TOKSTR_GT_SLICE_INFO" name="TOKSTR_GT_SLICE_INFO">
+<area shape="rect" id="node1" title=" " alt="" coords="256,1043,459,1135"/>
+<area shape="rect" id="node2" href="$structTokenVariableLength.html" title=" " alt="" coords="10,432,198,583"/>
+<area shape="rect" id="node6" href="$structTOKSTR__GT__SUBSLICE__INFO.html" title=" " alt="" coords="252,660,464,781"/>
+<area shape="rect" id="node8" href="$structTOKSTR__GT__DUALSUBSLICE__INFO.html" title=" " alt="" coords="60,859,308,980"/>
+<area shape="rect" id="node3" href="$structTokenHeader.html" title=" " alt="" coords="290,277,425,369"/>
+<area shape="rect" id="node5" href="$structTokenBool.html" title=" " alt="" coords="306,454,409,561"/>
+<area shape="rect" id="node7" href="$structTokenDword.html" title=" " alt="" coords="460,454,575,561"/>
+<area shape="rect" id="node4" href="$unionTokenHeader_1_1Flags.html" title=" " alt="" coords="278,5,437,215"/>
+</map>

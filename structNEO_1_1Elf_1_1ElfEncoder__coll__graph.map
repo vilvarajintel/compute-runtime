@@ -1,0 +1,12 @@
+<map id="NEO::Elf::ElfEncoder&lt; NumBits &gt;" name="NEO::Elf::ElfEncoder&lt; NumBits &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="350,623,575,964"/>
+<area shape="rect" id="node2" href="$structNEO_1_1Elf_1_1ElfSectionHeaderTypes_3_01EI__CLASS__64_01_4.html" title=" " alt="" coords="5,380,184,472"/>
+<area shape="rect" id="node3" href="$structNEO_1_1Elf_1_1ElfFileHeader.html" title=" " alt="" coords="208,292,363,560"/>
+<area shape="rect" id="node4" href="$structNEO_1_1Elf_1_1ElfFileHeaderIdentity.html" title=" " alt="" coords="143,35,340,200"/>
+<area shape="rect" id="node5" href="$classStackVec.html" title=" " alt="" coords="387,292,539,560"/>
+<area shape="rect" id="node6" href="$structNEO_1_1Elf_1_1ElfProgramHeader_3_01EI__CLASS__64_01_4.html" title=" " alt="" coords="365,20,547,215"/>
+<area shape="rect" id="node7" href="$classStackVec.html" title=" " alt="" coords="571,292,723,560"/>
+<area shape="rect" id="node8" href="$structNEO_1_1Elf_1_1ElfSectionHeader.html" title=" " alt="" coords="572,5,751,229"/>
+<area shape="rect" id="node9" href="$classStackVec.html" title=" " alt="" coords="765,292,955,560"/>
+<area shape="rect" id="node10" href="$structNEO_1_1Elf_1_1ElfEncoder_1_1ProgramSectionID.html" title=" " alt="" coords="775,64,982,171"/>
+</map>

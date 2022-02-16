@@ -1,0 +1,6 @@
+<map id="NEO::GfxPartition" name="NEO::GfxPartition">
+<area shape="rect" id="node1" title=" " alt="" coords="117,5,345,391"/>
+<area shape="rect" id="node2" href="$classMockGfxPartition.html" title=" " alt="" coords="5,439,228,736"/>
+<area shape="rect" id="node4" href="$classMockGfxPartitionBasic.html" title=" " alt="" coords="252,549,443,626"/>
+<area shape="rect" id="node3" href="$classFailedInitGfxPartition.html" title=" " alt="" coords="45,784,188,861"/>
+</map>

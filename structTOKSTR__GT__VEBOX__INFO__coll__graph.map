@@ -1,0 +1,12 @@
+<map id="TOKSTR_GT_VEBOX_INFO" name="TOKSTR_GT_VEBOX_INFO">
+<area shape="rect" id="node1" title=" " alt="" coords="602,1091,813,1183"/>
+<area shape="rect" id="node2" href="$structTokenVariableLength.html" title=" " alt="" coords="174,432,362,583"/>
+<area shape="rect" id="node5" href="$structTOKSTR__GT__VEBOX__INFO_1_1TOKSTR__VEBoxInstances.html" title=" " alt="" coords="261,921,458,1028"/>
+<area shape="rect" id="node6" href="$structTOKSTR__GT__VEBOX__INFO_1_1TOKSTR__VEBoxInstances_1_1TOKSTR__VEBitStruct.html" title=" " alt="" coords="126,737,316,859"/>
+<area shape="rect" id="node8" href="$structTOKSTR__GT__VEBOX__INFO_1_1TOKSTR__ANONYMOUS3862.html" title=" " alt="" coords="599,921,816,1028"/>
+<area shape="rect" id="node9" href="$structTOKSTR__GT__VEBOX__INFO_1_1TOKSTR__ANONYMOUS3862_1_1TOKSTR__ANONYMOUS3882.html" title=" " alt="" coords="599,737,816,859"/>
+<area shape="rect" id="node3" href="$structTokenHeader.html" title=" " alt="" coords="640,277,775,369"/>
+<area shape="rect" id="node7" href="$structTokenDword.html" title=" " alt="" coords="650,454,765,561"/>
+<area shape="rect" id="node10" href="$structTokenBool.html" title=" " alt="" coords="1026,607,1128,713"/>
+<area shape="rect" id="node4" href="$unionTokenHeader_1_1Flags.html" title=" " alt="" coords="628,5,787,215"/>
+</map>

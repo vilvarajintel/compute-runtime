@@ -1,0 +1,11 @@
+<map id="MetricsLibraryApi::ClientOptionsData_1_0" name="MetricsLibraryApi::ClientOptionsData_1_0">
+<area shape="rect" id="node1" title="Client options data." alt="" coords="771,175,926,281"/>
+<area shape="rect" id="node2" href="$structMetricsLibraryApi_1_1ClientOptionsPoshData__1__0.html" title="Client options posh data." alt="" coords="5,13,191,105"/>
+<area shape="rect" id="node3" href="$structMetricsLibraryApi_1_1ClientOptionsPtbrData__1__0.html" title="Client options ptbr data." alt="" coords="215,13,394,105"/>
+<area shape="rect" id="node4" href="$structMetricsLibraryApi_1_1ClientOptionsComputeData__1__0.html" title="Client options compute data." alt="" coords="419,13,625,105"/>
+<area shape="rect" id="node5" href="$structMetricsLibraryApi_1_1ClientOptionsTbsData__1__0.html" title="Client options time based sampling data." alt="" coords="649,13,827,105"/>
+<area shape="rect" id="node6" href="$structMetricsLibraryApi_1_1ClientOptionsSubDeviceData__1__0.html" title="Client options sub device data." alt="" coords="851,13,1070,105"/>
+<area shape="rect" id="node7" href="$structMetricsLibraryApi_1_1ClientOptionsSubDeviceIndexData__1__0.html" title="Client options sub device index data." alt="" coords="1094,5,1289,112"/>
+<area shape="rect" id="node8" href="$structMetricsLibraryApi_1_1ClientOptionsSubDeviceCountData__1__0.html" title="Client options sub device count data." alt="" coords="1313,5,1510,112"/>
+<area shape="rect" id="node9" href="$structMetricsLibraryApi_1_1ClientOptionsWorkloadPartition__1__0.html" title="Client options workload partition data." alt="" coords="1535,13,1765,105"/>
+</map>

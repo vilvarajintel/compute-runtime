@@ -1,0 +1,13 @@
+<map id="MockWddmResidencyController" name="MockWddmResidencyController">
+<area shape="rect" id="node1" title=" " alt="" coords="281,2160,531,2267"/>
+<area shape="rect" id="node2" href="$classNEO_1_1WddmResidencyController.html" title=" " alt="" coords="281,1755,531,2111"/>
+<area shape="rect" id="node3" href="$classNEO_1_1Wddm.html" title=" " alt="" coords="181,1101,415,1692"/>
+<area shape="rect" id="node4" href="$classNEO_1_1DriverModel.html" title=" " alt="" coords="5,734,172,958"/>
+<area shape="rect" id="node5" href="$classNEO_1_1NonCopyableClass.html" title=" " alt="" coords="5,359,172,495"/>
+<area shape="rect" id="node6" href="$struct____GMM__GFX__PARTITIONING.html" title=" " alt="" coords="196,749,400,943"/>
+<area shape="rect" id="node7" href="$structNEO_1_1RootDeviceEnvironment.html" title=" " alt="" coords="425,653,619,1039"/>
+<area shape="rect" id="node8" href="$classNEO_1_1ExecutionEnvironment.html" title=" " alt="" coords="301,264,532,591"/>
+<area shape="rect" id="node9" href="$classNEO_1_1ReferenceTrackedObject.html" title=" " alt="" coords="317,5,517,215"/>
+<area shape="rect" id="node10" href="$classNEO_1_1AffinityMaskHelper.html" title=" " alt="" coords="557,315,767,539"/>
+<area shape="rect" id="node11" href="$structNEO_1_1MonitoredFence.html" title=" " alt="" coords="439,1329,589,1465"/>
+</map>

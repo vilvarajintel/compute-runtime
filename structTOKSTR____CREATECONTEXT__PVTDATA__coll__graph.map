@@ -1,0 +1,9 @@
+<map id="TOKSTR__CREATECONTEXT_PVTDATA" name="TOKSTR__CREATECONTEXT_PVTDATA">
+<area shape="rect" id="node1" title=" " alt="" coords="106,921,319,1057"/>
+<area shape="rect" id="node2" href="$structTokenVariableLength.html" title=" " alt="" coords="5,577,193,728"/>
+<area shape="rect" id="node3" href="$structTokenHeader.html" title=" " alt="" coords="151,277,285,369"/>
+<area shape="rect" id="node6" href="$structTokenQword.html" title=" " alt="" coords="161,432,275,553"/>
+<area shape="rect" id="node7" href="$structTokenDword.html" title=" " alt="" coords="265,599,379,706"/>
+<area shape="rect" id="node4" href="$unionTokenHeader_1_1Flags.html" title=" " alt="" coords="139,5,297,215"/>
+<area shape="rect" id="node5" href="$structTokenPointer.html" title=" " alt="" coords="159,752,277,859"/>
+</map>

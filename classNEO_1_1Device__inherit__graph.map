@@ -1,0 +1,12 @@
+<map id="NEO::Device" name="NEO::Device">
+<area shape="rect" id="node1" title=" " alt="" coords="366,263,594,897"/>
+<area shape="rect" id="node3" href="$classNEO_1_1RootDevice.html" title=" " alt="" coords="263,953,470,1133"/>
+<area shape="rect" id="node9" href="$classNEO_1_1SubDevice.html" title=" " alt="" coords="507,945,706,1140"/>
+<area shape="rect" id="node2" href="$classNEO_1_1ReferenceTrackedObject.html" title=" " alt="" coords="380,5,580,215"/>
+<area shape="rect" id="node4" href="$classNEO_1_1MockDevice.html" title=" " alt="" coords="212,1188,471,1735"/>
+<area shape="rect" id="node5" href="$classNEO_1_1FailDevice.html" title=" " alt="" coords="5,1797,123,1875"/>
+<area shape="rect" id="node6" href="$classNEO_1_1FailDeviceAfterOne.html" title=" " alt="" coords="147,1797,317,1875"/>
+<area shape="rect" id="node7" href="$classNEO_1_1MockAlignedMallocManagerDevice.html" title=" " alt="" coords="341,1783,560,1889"/>
+<area shape="rect" id="node8" href="$classNEO_1_1MockDeviceWithDebuggerActive.html" title=" " alt="" coords="585,1783,815,1889"/>
+<area shape="rect" id="node10" href="$structNEO_1_1MockSubDevice.html" title=" " alt="" coords="495,1371,745,1551"/>
+</map>

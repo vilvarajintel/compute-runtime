@@ -1,0 +1,7 @@
+<map id="TOKSTR_FRAME_RATE" name="TOKSTR_FRAME_RATE">
+<area shape="rect" id="node1" title=" " alt="" coords="93,660,279,752"/>
+<area shape="rect" id="node2" href="$structTokenVariableLength.html" title=" " alt="" coords="5,432,193,583"/>
+<area shape="rect" id="node3" href="$structTokenHeader.html" title=" " alt="" coords="119,277,253,369"/>
+<area shape="rect" id="node5" href="$structTokenDword.html" title=" " alt="" coords="218,454,333,561"/>
+<area shape="rect" id="node4" href="$unionTokenHeader_1_1Flags.html" title=" " alt="" coords="107,5,265,215"/>
+</map>

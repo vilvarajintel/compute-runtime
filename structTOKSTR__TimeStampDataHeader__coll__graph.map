@@ -1,0 +1,12 @@
+<map id="TOKSTR_TimeStampDataHeader" name="TOKSTR_TimeStampDataHeader">
+<area shape="rect" id="node1" title=" " alt="" coords="40,1131,278,1223"/>
+<area shape="rect" id="node2" href="$structTokenVariableLength.html" title=" " alt="" coords="258,432,446,583"/>
+<area shape="rect" id="node5" href="$structTOKSTR__GFX__ESCAPE__HEADER.html" title=" " alt="" coords="36,785,282,877"/>
+<area shape="rect" id="node7" href="$structTOKSTR__TimeStampDataHeader_1_1TOKSTR__ANONYMOUS2466.html" title=" " alt="" coords="291,961,510,1068"/>
+<area shape="rect" id="node8" href="$structTOKSTR__GTDIBaseInStruct.html" title=" " alt="" coords="395,785,603,877"/>
+<area shape="rect" id="node9" href="$structTOKSTR__GTDIGetGpuCpuTimestampsOutStruct.html" title=" " alt="" coords="628,763,892,899"/>
+<area shape="rect" id="node3" href="$structTokenHeader.html" title=" " alt="" coords="602,277,737,369"/>
+<area shape="rect" id="node6" href="$structTokenDword.html" title=" " alt="" coords="612,454,727,561"/>
+<area shape="rect" id="node10" href="$structTokenQword.html" title=" " alt="" coords="774,447,888,568"/>
+<area shape="rect" id="node4" href="$unionTokenHeader_1_1Flags.html" title=" " alt="" coords="590,5,749,215"/>
+</map>

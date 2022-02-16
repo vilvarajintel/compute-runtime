@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structNEO_1_1WddmMockHelpers_1_1CallResult.html" title=" " alt="" coords="5,169,176,211"/>
+<area shape="rect" id="node2" href="$structNEO_1_1WddmMockHelpers_1_1FreeGpuVirtualAddressCall.html" title=" " alt="" coords="224,5,409,47"/>
+<area shape="rect" id="node3" href="$structNEO_1_1WddmMockHelpers_1_1KmDafLockCall.html" title=" " alt="" coords="231,71,402,112"/>
+<area shape="rect" id="node4" href="$structNEO_1_1WddmMockHelpers_1_1MakeResidentCall.html" title=" " alt="" coords="231,136,402,177"/>
+<area shape="rect" id="node5" href="$structNEO_1_1WddmMockHelpers_1_1MemoryOperationResult.html" title=" " alt="" coords="231,201,402,243"/>
+<area shape="rect" id="node6" href="$structNEO_1_1WddmMockHelpers_1_1SubmitResult.html" title=" " alt="" coords="231,267,402,308"/>
+<area shape="rect" id="node7" href="$structNEO_1_1WddmMockHelpers_1_1WaitFromCpuResult.html" title=" " alt="" coords="231,332,402,373"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="NEO::DeviceInstrumentationFixture" name="NEO::DeviceInstrumentationFixture">
+<area shape="rect" id="node1" title=" " alt="" coords="287,1123,474,1215"/>
+<area shape="rect" id="node2" href="$structNEO_1_1HardwareInfo.html" title=" " alt="" coords="313,953,448,1060"/>
+<area shape="rect" id="node3" href="$structNEO_1_1FeatureTable.html" title=" " alt="" coords="123,740,255,817"/>
+<area shape="rect" id="node4" href="$structNEO_1_1FeatureTableBase.html" title=" " alt="" coords="70,431,233,538"/>
+<area shape="rect" id="node5" href="$structNEO_1_1FeatureTableBase_1_1Flags.html" title=" " alt="" coords="5,27,233,281"/>
+<area shape="rect" id="node6" href="$structNEO_1_1WorkaroundTable.html" title=" " alt="" coords="302,740,459,817"/>
+<area shape="rect" id="node7" href="$structNEO_1_1WorkaroundTableBase.html" title=" " alt="" coords="287,439,474,531"/>
+<area shape="rect" id="node8" href="$structNEO_1_1WorkaroundTableBase_1_1Flags.html" title=" " alt="" coords="257,5,504,303"/>
+<area shape="rect" id="node9" href="$structNEO_1_1RuntimeCapabilityTable.html" title=" " alt="" coords="519,667,733,891"/>
+<area shape="rect" id="node10" href="$structNEO_1_1DirectSubmissionProperyEngines.html" title=" " alt="" coords="509,431,743,538"/>
+<area shape="rect" id="node11" href="$structNEO_1_1DirectSubmissionProperties.html" title=" " alt="" coords="528,79,745,229"/>
+<area shape="rect" id="node12" href="$structNEO_1_1KmdNotifyProperties.html" title=" " alt="" coords="767,365,1005,604"/>
+</map>

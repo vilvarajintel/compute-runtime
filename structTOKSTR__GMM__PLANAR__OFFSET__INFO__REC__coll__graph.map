@@ -1,0 +1,11 @@
+<map id="TOKSTR_GMM_PLANAR_OFFSET_INFO_REC" name="TOKSTR_GMM_PLANAR_OFFSET_INFO_REC">
+<area shape="rect" id="node1" title=" " alt="" coords="318,921,562,1057"/>
+<area shape="rect" id="node2" href="$structTokenVariableLength.html" title=" " alt="" coords="113,432,301,583"/>
+<area shape="rect" id="node7" href="$structTOKSTR__GMM__PLANAR__OFFSET__INFO__REC_1_1TOKSTR__ANONYMOUS1851.html" title=" " alt="" coords="81,752,357,859"/>
+<area shape="rect" id="node3" href="$structTokenHeader.html" title=" " alt="" coords="457,277,591,369"/>
+<area shape="rect" id="node5" href="$structTokenQword.html" title=" " alt="" coords="455,607,569,728"/>
+<area shape="rect" id="node6" href="$structTokenArray.html" title=" " alt="" coords="325,447,486,568"/>
+<area shape="rect" id="node8" href="$structTokenDword.html" title=" " alt="" coords="580,752,695,859"/>
+<area shape="rect" id="node9" href="$structTokenBool.html" title=" " alt="" coords="682,614,785,721"/>
+<area shape="rect" id="node4" href="$unionTokenHeader_1_1Flags.html" title=" " alt="" coords="445,5,603,215"/>
+</map>

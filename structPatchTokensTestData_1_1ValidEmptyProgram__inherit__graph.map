@@ -1,0 +1,12 @@
+<map id="PatchTokensTestData::ValidEmptyProgram" name="PatchTokensTestData::ValidEmptyProgram">
+<area shape="rect" id="node1" title=" " alt="" coords="275,336,430,457"/>
+<area shape="rect" id="node3" href="$structPatchTokensTestData_1_1ValidProgramWithConstantSurface.html" title=" " alt="" coords="26,513,215,649"/>
+<area shape="rect" id="node6" href="$structPatchTokensTestData_1_1ValidProgramWithGlobalSurface.html" title=" " alt="" coords="239,527,466,634"/>
+<area shape="rect" id="node8" href="$structPatchTokensTestData_1_1ValidProgramWithKernel.html" title=" " alt="" coords="501,505,684,656"/>
+<area shape="rect" id="node2" href="$structNEO_1_1PatchTokenBinary_1_1ProgramFromPatchtokens.html" title=" " alt="" coords="242,5,463,288"/>
+<area shape="rect" id="node4" href="$structPatchTokensTestData_1_1ValidProgramWithConstantSurfaceAndPointer.html" title=" " alt="" coords="26,748,215,884"/>
+<area shape="rect" id="node5" href="$structPatchTokensTestData_1_1ValidProgramWithMixedGlobalVarAndConstSurfacesAndPointers.html" title=" " alt="" coords="5,976,236,1141"/>
+<area shape="rect" id="node7" href="$structPatchTokensTestData_1_1ValidProgramWithGlobalSurfaceAndPointer.html" title=" " alt="" coords="241,748,459,884"/>
+<area shape="rect" id="node9" href="$structPatchTokensTestData_1_1ValidProgramWithKernelAndArg.html" title=" " alt="" coords="484,704,701,928"/>
+<area shape="rect" id="node10" href="$structPatchTokensTestData_1_1ValidProgramWithKernelUsingSlm.html" title=" " alt="" coords="726,748,953,884"/>
+</map>

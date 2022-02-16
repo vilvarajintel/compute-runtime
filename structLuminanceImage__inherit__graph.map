@@ -1,0 +1,5 @@
+<map id="LuminanceImage" name="LuminanceImage">
+<area shape="rect" id="node1" title=" " alt="" coords="5,300,128,377"/>
+<area shape="rect" id="node2" href="$structImage2dDefaults.html" title=" " alt="" coords="7,175,127,252"/>
+<area shape="rect" id="node3" href="$structImage1dDefaults.html" title=" " alt="" coords="7,5,127,127"/>
+</map>

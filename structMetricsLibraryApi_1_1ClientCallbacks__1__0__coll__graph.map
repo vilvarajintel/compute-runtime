@@ -1,0 +1,5 @@
+<map id="MetricsLibraryApi::ClientCallbacks_1_0" name="MetricsLibraryApi::ClientCallbacks_1_0">
+<area shape="rect" id="node1" title="Metrics Library interface callbacks." alt="" coords="119,204,305,369"/>
+<area shape="rect" id="node2" href="$structMetricsLibraryApi_1_1GpuMemoryAllocateData__1__0.html" title="Gpu memory allocate data." alt="" coords="5,5,200,141"/>
+<area shape="rect" id="node3" href="$structMetricsLibraryApi_1_1CpuMemoryAllocateData__1__0.html" title="Cpu memory allocate data." alt="" coords="225,20,418,127"/>
+</map>

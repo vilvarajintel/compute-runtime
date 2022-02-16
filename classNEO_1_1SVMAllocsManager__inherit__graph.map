@@ -1,0 +1,10 @@
+<map id="NEO::SVMAllocsManager" name="NEO::SVMAllocsManager">
+<area shape="rect" id="node1" title=" " alt="" coords="792,5,1040,405"/>
+<area shape="rect" id="node2" href="$structL0_1_1ult_1_1SVMAllocsManagerContextMock.html" title=" " alt="" coords="5,483,253,589"/>
+<area shape="rect" id="node3" href="$structL0_1_1ult_1_1SVMAllocsManagerFreeExtMock.html" title=" " alt="" coords="277,483,509,589"/>
+<area shape="rect" id="node4" href="$structL0_1_1ult_1_1SVMAllocsManagerOutOFMemoryMock.html" title=" " alt="" coords="534,475,767,597"/>
+<area shape="rect" id="node5" href="$structL0_1_1ult_1_1SVMAllocsManagerRelaxedSizeMock.html" title=" " alt="" coords="792,453,1040,619"/>
+<area shape="rect" id="node6" href="$structL0_1_1ult_1_1SVMAllocsManagerSharedAllocFailMock.html" title=" " alt="" coords="1064,468,1283,604"/>
+<area shape="rect" id="node7" href="$structL0_1_1ult_1_1SVMAllocsManagerSharedAllocMultiDeviceMock.html" title=" " alt="" coords="1307,468,1555,604"/>
+<area shape="rect" id="node8" href="$structNEO_1_1MockSVMAllocsManager.html" title=" " alt="" coords="1579,475,1781,597"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="TOKSTR_GT_MULTI_TILE_ARCH_INFO" name="TOKSTR_GT_MULTI_TILE_ARCH_INFO">
+<area shape="rect" id="node1" title=" " alt="" coords="178,719,373,855"/>
+<area shape="rect" id="node2" href="$structTokenVariableLength.html" title=" " alt="" coords="5,432,193,583"/>
+<area shape="rect" id="node3" href="$structTokenHeader.html" title=" " alt="" coords="208,277,343,369"/>
+<area shape="rect" id="node5" href="$structTokenDword.html" title=" " alt="" coords="218,454,333,561"/>
+<area shape="rect" id="node6" href="$structTokenBool.html" title=" " alt="" coords="357,454,460,561"/>
+<area shape="rect" id="node4" href="$unionTokenHeader_1_1Flags.html" title=" " alt="" coords="196,5,355,215"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="TOKSTR_COMMAND_BUFFER_HEADER_REC" name="TOKSTR_COMMAND_BUFFER_HEADER_REC">
+<area shape="rect" id="node1" title=" " alt="" coords="90,807,311,943"/>
+<area shape="rect" id="node2" href="$structTokenVariableLength.html" title=" " alt="" coords="5,432,193,583"/>
+<area shape="rect" id="node3" href="$structTokenHeader.html" title=" " alt="" coords="208,277,343,369"/>
+<area shape="rect" id="node5" href="$structTokenDword.html" title=" " alt="" coords="218,454,333,561"/>
+<area shape="rect" id="node6" href="$structTokenQword.html" title=" " alt="" coords="357,447,471,568"/>
+<area shape="rect" id="node4" href="$unionTokenHeader_1_1Flags.html" title=" " alt="" coords="196,5,355,215"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="drm_wait_vblank" name="drm_wait_vblank">
+<area shape="rect" id="node1" title=" " alt="" coords="124,189,244,267"/>
+<area shape="rect" id="node2" href="$structdrm__wait__vblank__request.html" title=" " alt="" coords="5,13,176,119"/>
+<area shape="rect" id="node3" href="$structdrm__wait__vblank__reply.html" title=" " alt="" coords="200,5,355,127"/>
+</map>

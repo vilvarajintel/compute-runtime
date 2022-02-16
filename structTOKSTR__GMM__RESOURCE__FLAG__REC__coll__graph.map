@@ -1,0 +1,10 @@
+<map id="TOKSTR_GMM_RESOURCE_FLAG_REC" name="TOKSTR_GMM_RESOURCE_FLAG_REC">
+<area shape="rect" id="node1" title=" " alt="" coords="225,1123,429,1259"/>
+<area shape="rect" id="node2" href="$structTokenVariableLength.html" title=" " alt="" coords="212,432,400,583"/>
+<area shape="rect" id="node5" href="$structTOKSTR__GMM__RESOURCE__FLAG__REC_1_1TOKSTR__ANONYMOUS1739.html" title=" " alt="" coords="399,807,677,1060"/>
+<area shape="rect" id="node7" href="$structTOKSTR__GMM__RESOURCE__FLAG__REC_1_1TOKSTR__ANONYMOUS6797.html" title=" " alt="" coords="96,807,375,1060"/>
+<area shape="rect" id="node8" href="$structTOKSTR__GMM__RESOURCE__FLAG__REC_1_1TOKSTR__ANONYMOUS12521.html" title=" " alt="" coords="701,858,988,1009"/>
+<area shape="rect" id="node3" href="$structTokenHeader.html" title=" " alt="" coords="325,277,460,369"/>
+<area shape="rect" id="node6" href="$structTokenDword.html" title=" " alt="" coords="494,454,609,561"/>
+<area shape="rect" id="node4" href="$unionTokenHeader_1_1Flags.html" title=" " alt="" coords="313,5,472,215"/>
+</map>

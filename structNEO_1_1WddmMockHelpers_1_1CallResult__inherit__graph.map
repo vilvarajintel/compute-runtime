@@ -1,0 +1,9 @@
+<map id="NEO::WddmMockHelpers::CallResult" name="NEO::WddmMockHelpers::CallResult">
+<area shape="rect" id="node1" title=" " alt="" coords="507,5,678,141"/>
+<area shape="rect" id="node2" href="$structNEO_1_1WddmMockHelpers_1_1FreeGpuVirtualAddressCall.html" title=" " alt="" coords="5,211,191,303"/>
+<area shape="rect" id="node3" href="$structNEO_1_1WddmMockHelpers_1_1KmDafLockCall.html" title=" " alt="" coords="215,211,386,303"/>
+<area shape="rect" id="node4" href="$structNEO_1_1WddmMockHelpers_1_1MakeResidentCall.html" title=" " alt="" coords="410,189,581,325"/>
+<area shape="rect" id="node5" href="$structNEO_1_1WddmMockHelpers_1_1MemoryOperationResult.html" title=" " alt="" coords="605,211,775,303"/>
+<area shape="rect" id="node6" href="$structNEO_1_1WddmMockHelpers_1_1SubmitResult.html" title=" " alt="" coords="800,189,991,325"/>
+<area shape="rect" id="node7" href="$structNEO_1_1WddmMockHelpers_1_1WaitFromCpuResult.html" title=" " alt="" coords="1015,211,1186,303"/>
+</map>

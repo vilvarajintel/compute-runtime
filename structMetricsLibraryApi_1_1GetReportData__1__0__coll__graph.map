@@ -1,0 +1,7 @@
+<map id="MetricsLibraryApi::GetReportData_1_0" name="MetricsLibraryApi::GetReportData_1_0">
+<area shape="rect" id="node1" title="Get data." alt="" coords="95,344,231,451"/>
+<area shape="rect" id="node2" href="$structMetricsLibraryApi_1_1GetReportQuery__1__0.html" title="Get query report." alt="" coords="5,145,148,281"/>
+<area shape="rect" id="node3" title=" " alt="" coords="14,5,139,83"/>
+<area shape="rect" id="node4" href="$structMetricsLibraryApi_1_1GetReportOverride__1__0.html" title="Get override report." alt="" coords="172,160,331,267"/>
+<area shape="rect" id="node5" title=" " alt="" coords="181,5,321,83"/>
+</map>

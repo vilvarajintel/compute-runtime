@@ -1,0 +1,9 @@
+<map id="NEO::Pipe" name="NEO::Pipe">
+<area shape="rect" id="node1" title=" " alt="" coords="30,1343,247,1537"/>
+<area shape="rect" id="node7" href="$classMockPipe.html" title=" " alt="" coords="85,1585,192,1677"/>
+<area shape="rect" id="node2" href="$classNEO_1_1MemObj.html" title=" " alt="" coords="9,807,269,1295"/>
+<area shape="rect" id="node3" href="$classNEO_1_1BaseObject.html" title=" " alt="" coords="49,388,228,759"/>
+<area shape="rect" id="node4" href="$struct__cl__mem.html" title=" " alt="" coords="20,197,95,274"/>
+<area shape="rect" id="node5" href="$structClDispatch.html" title=" " alt="" coords="5,5,109,83"/>
+<area shape="rect" id="node6" href="$classNEO_1_1ReferenceTrackedObject.html" title=" " alt="" coords="119,131,321,340"/>
+</map>
