@@ -69,21 +69,21 @@ $(function() {
 <p >The authoritative public repository for these headers is located at:</p>
 <p ><a href="https://github.com/KhronosGroup/OpenCL-Headers">https://github.com/KhronosGroup/OpenCL-Headers</a></p>
 <p >Issues, proposed fixes for issues, and other suggested changes should be created using Github.</p>
-<h1><a class="anchor" id="autotoc_md181"></a>
+<h1><a class="anchor" id="autotoc_md177"></a>
 Branch Structure</h1>
 <p >The OpenCL API headers in this repository are Unified headers and are designed to work with all released OpenCL versions. This differs from previous OpenCL API headers, where version-specific API headers either existed in separate branches, or in separate folders in a branch.</p>
-<h1><a class="anchor" id="autotoc_md182"></a>
+<h1><a class="anchor" id="autotoc_md178"></a>
 Compiling for a Specific OpenCL Version</h1>
 <p >By default, the OpenCL API headers in this repository are for the latest OpenCL version (currently OpenCL 2.2). To use these API headers to target a different OpenCL version, an application may <code>#define</code> the preprocessor value <code>CL_TARGET_OPENCL_VERSION</code> before including the OpenCL API headers. The <code>CL_TARGET_OPENCL_VERSION</code> is a three digit decimal value representing the OpenCL API version.</p>
 <p >For example, to enforce usage of no more than the OpenCL 1.2 APIs, you may include the OpenCL API headers as follows:</p>
 <div class="fragment"><div class="line">#define CL_TARGET_OPENCL_VERSION 120</div>
 <div class="line">#include &lt;CL/opencl.h&gt;</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md183"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md179"></a>
 Directory Structure</h1>
 <div class="fragment"><div class="line">README.md               This file</div>
 <div class="line">LICENSE                 Source license for the OpenCL API headers</div>
 <div class="line">CL/                     Unified OpenCL API headers tree</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md184"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md180"></a>
 License</h1>
 <p >See [LICENSE](LICENSE).</p>
 <hr  />

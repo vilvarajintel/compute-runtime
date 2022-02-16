@@ -65,45 +65,45 @@ $(function() {
   <div class="headertitle"><div class="title">FAQ </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md95"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md91"></a>
 Frequently asked questions (OpenCL)</h1>
 <p >For general questions, see the <a href="https://github.com/intel/compute-runtime/blob/master/FAQ.md">main FAQ</a>.</p>
-<h2><a class="anchor" id="autotoc_md96"></a>
+<h2><a class="anchor" id="autotoc_md92"></a>
 OpenCL version</h2>
-<h3><a class="anchor" id="autotoc_md97"></a>
+<h3><a class="anchor" id="autotoc_md93"></a>
 Which version of OpenCL is supported?</h3>
 <p >See <a href="https://github.com/intel/compute-runtime/blob/master/README.md">README.md</a>.</p>
-<h2><a class="anchor" id="autotoc_md98"></a>
+<h2><a class="anchor" id="autotoc_md94"></a>
 Known Issues and Limitations</h2>
 <p >OpenCL compliance of a driver built from open-source components should not be assumed by default. Intel will clearly designate / tag specific builds to indicate production quality including formal compliance. Other builds should be considered experimental.</p>
-<h3><a class="anchor" id="autotoc_md99"></a>
+<h3><a class="anchor" id="autotoc_md95"></a>
 What is the functional delta to the "Beignet" driver?</h3>
 <p >Intel's former open-source <a href="https://01.org/beignet">Beignet driver</a> provided sharing capabilities with MESA OpenGL driver. Our intention is to provide these capabilities in NEO in the future.</p>
 <p >NEO supports platforms starting with Gen8 graphics (formerly Broadwell). For earlier platforms, please use Beignet driver.</p>
-<h2><a class="anchor" id="autotoc_md100"></a>
+<h2><a class="anchor" id="autotoc_md96"></a>
 Feature: cl_intel_va_api_media_sharing extension</h2>
-<h3><a class="anchor" id="autotoc_md101"></a>
+<h3><a class="anchor" id="autotoc_md97"></a>
 Where can I learn more about this extension?</h3>
 <p >See the enabling <a class="el" href="md_opencl_doc_cl_intel_va_api_media_sharing.html">guide</a>.</p>
-<h2><a class="anchor" id="autotoc_md102"></a>
+<h2><a class="anchor" id="autotoc_md98"></a>
 Feature: cl_cache</h2>
-<h3><a class="anchor" id="autotoc_md103"></a>
+<h3><a class="anchor" id="autotoc_md99"></a>
 What is cl_cache?</h3>
 <p >This is a mechanism to cache binary representations of OpenCL kernels provided in text form by the application. By storing the binary representations, compiling is required only the first time, which improves performance.</p>
-<h3><a class="anchor" id="autotoc_md104"></a>
+<h3><a class="anchor" id="autotoc_md100"></a>
 How can cl_cache be enabled?</h3>
 <p >In the working directory, manually create <em>cl_cache</em> directory. The driver will use this directory to store the binary representations of the compiled kernels. Note: This will work on all supported OSes.</p>
-<h3><a class="anchor" id="autotoc_md105"></a>
+<h3><a class="anchor" id="autotoc_md101"></a>
 Configuring cl_cache location</h3>
 <p >Cached kernels can be stored in a different directory than the default one. This is useful when the application is installed into a directory for which the user doesn't have permissions.</p>
-<h4><a class="anchor" id="autotoc_md106"></a>
+<h4><a class="anchor" id="autotoc_md102"></a>
 Linux configuration</h4>
 <p >Set the environment variable named <code>cl_cache_dir</code> to new location of cl_cache directory.</p>
-<h4><a class="anchor" id="autotoc_md107"></a>
+<h4><a class="anchor" id="autotoc_md103"></a>
 Example:</h4>
 <p >If the application's directory is <code>/home/user/Document</code>, by default cl_cache will be stored in <code>/home/user/Document/cl_cache</code>. If the new path should be <code>/home/user/Desktop/cl_cache_place</code>, set environment variable <code>cl_cache_dir</code> to <code>/home/user/Desktop/cl_cache_place</code>. </p><div class="fragment"><div class="line">export cl_cache_dir=/home/user/Desktop/cl_cache_place</div>
 </div><!-- fragment --><p >Subsequent application runs with passed source code and <code>cl_cache_dir</code> environment variable set will reuse previously cached kernel binaries instead of compiling kernels from source.</p>
-<h4><a class="anchor" id="autotoc_md108"></a>
+<h4><a class="anchor" id="autotoc_md104"></a>
 Windows configuration</h4>
 <p >To set the new location of cl_cache directory - in the registry <code>HKEY_LOCAL_MACHINE\SOFTWARE\Intel\IGFX\OCL</code>:</p><ol type="1">
 <li>add key <code>cl_cache_dir</code></li>
@@ -114,12 +114,12 @@ Windows configuration</h4>
 <ol type="1">
 <li>set data of added value to desired location of cl_cache</li>
 </ol>
-<h4><a class="anchor" id="autotoc_md109"></a>
+<h4><a class="anchor" id="autotoc_md105"></a>
 Example:</h4>
 <p >If application is located in <code>C:\Program Files\application\app.exe</code>, by default cl_cache will be stored in <code>C:\Program Files\application\cl_cache</code>. If the new path should be <code>C:\Users\USER\Documents\application\cl_cache</code>, to subkey <code>HKEY_LOCAL_MACHINE\SOFTWARE\Intel\IGFX\OCL\cl_cache_dir</code> add string value named <code>C:\Program Files\application\app.exe</code> with data <code>C:\Users\USER\Documents\application\cl_cache</code>.</p>
 <p >e.g. string value : <code>HKEY_LOCAL_MACHINE\SOFTWARE\Intel\IGFX\OCL\cl_cache_dir\C:\Program Files\application\app.exe</code> data : <code>C:\Users\USER\Documents\application\cl_cache</code></p>
 <p >Neo will look for string value (REG_SZ) <code>C:\Program Files\application\app.exe</code> in key <code>HKEY_LOCAL_MACHINE\SOFTWARE\Intel\IGFX\OCL\cl_cache_dir</code>. Data of this string value will be used as new cl_cache dump directory for this specific application.</p>
-<h3><a class="anchor" id="autotoc_md110"></a>
+<h3><a class="anchor" id="autotoc_md106"></a>
 What are the known limitations of cl_cache?</h3>
 <ol type="1">
 <li>Not thread safe. (Workaround: Make sure your clBuildProgram calls are executed in thread safe fashion.)</li>
@@ -136,16 +136,16 @@ What are the known limitations of cl_cache?</h3>
 <ol type="1">
 <li>Cache is not process safe.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md111"></a>
+<h2><a class="anchor" id="autotoc_md107"></a>
 Feature: Out of order queues</h2>
-<h3><a class="anchor" id="autotoc_md112"></a>
+<h3><a class="anchor" id="autotoc_md108"></a>
 Implementation details of out of order queues implementation</h3>
 <p >Current implementation of out of order queues allows multiple kernels to be run concurently. This allows for better device utilization in scenarios where single kernel doesn't fill whole device.</p>
 <p >More details can be found here:</p><ul>
 <li><a href="https://github.com/intel/compute-samples/tree/master/compute_samples/applications/commands_aggregation">Sample applications</a></li>
 <li><a href="https://www.iwocl.org/wp-content/uploads/iwocl-2019-michal-mrozek-intel-breaking-the-last-line-of-performance-border.pdf">IWOCL(*) presentation</a></li>
 </ul>
-<h3><a class="anchor" id="autotoc_md113"></a>
+<h3><a class="anchor" id="autotoc_md109"></a>
 Known issues and limitations</h3>
 <ol type="1">
 <li>Turning on profiling on out of order command queue serializes kernel execution.</li>
@@ -156,24 +156,24 @@ Known issues and limitations</h3>
 <ol type="1">
 <li>Commands blocked by user events, when unblocked are serialized as well.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md114"></a>
+<h2><a class="anchor" id="autotoc_md110"></a>
 Feature: Double-precision emulation (FP64)</h2>
 <p >By default NEO driver enables double precision operations only on platforms with supporting hardware. This is signified by exposing the "cl_khr_fp64" extension in the extension string. For other platforms, this support can be emulated by the compiler (IGC).</p>
-<h3><a class="anchor" id="autotoc_md115"></a>
+<h3><a class="anchor" id="autotoc_md111"></a>
 How do I enable emulation?</h3>
 <p >FP64 emulation can only be enabled on Linux. There are two settings that have to be set.</p>
-<h4><a class="anchor" id="autotoc_md116"></a>
+<h4><a class="anchor" id="autotoc_md112"></a>
 Runtime setting:</h4>
 <p >There are two ways you can enable this feature in NEO:</p>
 <ul>
 <li>Set an environment variable <b>OverrideDefaultFP64Settings</b> to <b>1</b>: <code>OverrideDefaultFP64Settings=1</code></li>
 <li>In <b>igdrcl.config</b> configuration file in the same directory as application binary (you may have to create this file) add a line as such: <code>OverrideDefaultFP64Settings = 1</code></li>
 </ul>
-<h4><a class="anchor" id="autotoc_md117"></a>
+<h4><a class="anchor" id="autotoc_md113"></a>
 Compiler setting:</h4>
 <p >IGC reads flags only from environment, so set <b>IGC_EnableDPEmulation</b> to <b>1</b> as such: <code>IGC_EnableDPEmulation=1</code></p>
 <p >After both settings have been set you can run the application normally.</p>
-<h3><a class="anchor" id="autotoc_md118"></a>
+<h3><a class="anchor" id="autotoc_md114"></a>
 Known issues and limitations</h3>
 <p >Intel does not claim full specification conformance when using emulated mode. We reserve the right to not fix issues that appear only in emulation mode. Performance degradation is to be expected and has not been measured by Intel. </p>
 </div></div><!-- contents -->

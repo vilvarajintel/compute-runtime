@@ -67,7 +67,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><p >This repository hosts the official Direct3D 12 headers. These headers are made available under the MIT license rather than the traditional Windows SDK license.</p>
 <p >Additionally, this repository hosts several helpers for using these headers.</p>
-<h1><a class="anchor" id="autotoc_md140"></a>
+<h1><a class="anchor" id="autotoc_md136"></a>
 Directory Structure</h1>
 <ul>
 <li><code>/</code>: Build files are available here for quick integration. CMake is provided, and can be referenced either via <code>subdirectory()</code> or after installation to a system location. Meson is also available for inclusion as a subproject/wrap.</li>
@@ -77,10 +77,10 @@ Directory Structure</h1>
 <li><code>/src/dxguids.cpp</code>: This cpp file can be used as a replacement for linking against <code>dxguid.lib</code> on Windows, and as a convenient translation unit to define GUIDs without multiple definitions for WSL.</li>
 <li><code>/test</code>: Simple CMake/Meson projects for validating the headers can be included in a given environment</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md141"></a>
+<h1><a class="anchor" id="autotoc_md137"></a>
 Use on Windows</h1>
 <p >Note that these headers may conflict with the headers from the Windows SDK, depending on include ordering. These headers should be added to the include directory list before the SDK, and should be included before other graphics headers (e.g. <code>d3d11.h</code>) from the Windows SDK. Otherwise, the corresponding header from the Windows SDK may be included first, and will define the include guards which prevents these headers from being used.</p>
-<h1><a class="anchor" id="autotoc_md142"></a>
+<h1><a class="anchor" id="autotoc_md138"></a>
 Use on WSL</h1>
 <p >Note: WSL support is not intended for general purpose application development. <a class="el" href="structAt.html">At</a> this time, the only recommended usage is for frameworks wishing to provide hardware acceleration for a Linux graphics/compute API in a WSL2 virtualization environment.</p>
 <p >Note: WSL support is only available for 64-bit binaries.</p>
@@ -94,7 +94,7 @@ Use on WSL</h1>
 <td class="markdownTableBodyNone"><code>WCHAR</code>/<code>WCSTR</code>   </td><td class="markdownTableBodyNone">On Windows, a <code>wchar_t</code> is 2 bytes, but on Linux it is typically 4 bytes. The D3D12 ABI for WSL uses the native 4-byte <code>wchar_t</code>, to enable applications and the runtime to use the system C library to perform string manipulation.   </td></tr>
 </table>
 <p >Additionally, APIs taking <code>HANDLE</code> (<code>void*</code>) for Win32 types should instead use <code>reinterpret_cast&lt;HANDLE&gt;(fd)</code> for an appropriate type of file descriptor. For <code>ID3D12Fence::SetEventOnCompletion</code> this should be an <code>eventfd</code>, and for shared resources will be an opaque fd.</p>
-<h1><a class="anchor" id="autotoc_md143"></a>
+<h1><a class="anchor" id="autotoc_md139"></a>
 Ways to consume</h1>
 <p >There are various ways to consume the headers in this project:</p>
 <ul>
@@ -111,12 +111,12 @@ Ways to consume</h1>
 </li>
 </ul>
 <p >Contributions for new mechanisms are welcome.</p>
-<h1><a class="anchor" id="autotoc_md144"></a>
+<h1><a class="anchor" id="autotoc_md140"></a>
 Contributing</h1>
 <p >This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit <a href="https://cla.opensource.microsoft.com">https://cla.opensource.microsoft.com</a>.</p>
 <p >When you submit a pull request, a CLA bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA.</p>
 <p >This project has adopted the <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft Open Source Code of Conduct</a>. For more information see the <a href="https://opensource.microsoft.com/codeofconduct/faq/">Code of Conduct FAQ</a> or contact <a href="#" onclick="location.href='mai'+'lto:'+'ope'+'nc'+'ode'+'@m'+'icr'+'os'+'oft'+'.c'+'om'; return false;">opencode@microsoft.com</a> with any additional questions or comments.</p>
-<h1><a class="anchor" id="autotoc_md145"></a>
+<h1><a class="anchor" id="autotoc_md141"></a>
 Trademarks</h1>
 <p >This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general">Microsoft's Trademark &amp; Brand Guidelines</a>. Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship. Any use of third-party trademarks or logos are subject to those third-party's policies. </p>
 </div></div><!-- contents -->

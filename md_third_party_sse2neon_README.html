@@ -67,10 +67,10 @@ $(function() {
 <div class="contents">
 <div class="textblock"><p ><img src="https://github.com/DLTcollab/sse2neon/workflows/Github%20Actions/badge.svg?branch=master" alt="Github Actions" style="pointer-events: none;" class="inline"/></p>
 <p >A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics.</p>
-<h1><a class="anchor" id="autotoc_md187"></a>
+<h1><a class="anchor" id="autotoc_md183"></a>
 Introduction</h1>
 <p ><code>sse2neon</code> is a translator of Intel SSE (Streaming SIMD Extensions) intrinsics to <a href="https://developer.arm.com/architectures/instruction-sets/simd-isas/neon">Arm NEON</a>, shortening the time needed to get an Arm working program that then can be used to extract profiles and to identify hot paths in the code. The header file <code><a class="el" href="sse2neon_8h_source.html">sse2neon.h</a></code> contains several of the functions provided by Intel intrinsic headers such as <code>&lt;xmmintrin.h&gt;</code>, only implemented with NEON-based counterparts to produce the exact semantics of the intrinsics.</p>
-<h1><a class="anchor" id="autotoc_md188"></a>
+<h1><a class="anchor" id="autotoc_md184"></a>
 Mapping and Coverage</h1>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -95,7 +95,7 @@ Mapping and Coverage</h1>
 <p ><code>sse2neon</code> aims to support SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2 and AES extension.</p>
 <p >In order to deliver NEON-equivalent intrinsics for all SSE intrinsics used widely, please be aware that some SSE intrinsics exist a direct mapping with a concrete NEON-equivalent intrinsic. However, others lack of 1-to-1 mapping, that means the equivalents are implemented using several NEON intrinsics.</p>
 <p >For example, SSE intrinsic <code>_mm_loadu_si128</code> has a direct NEON mapping (<code>vld1q_s32</code>), but SSE intrinsic <code>_mm_maddubs_epi16</code> has to be implemented with 13+ NEON instructions.</p>
-<h1><a class="anchor" id="autotoc_md189"></a>
+<h1><a class="anchor" id="autotoc_md185"></a>
 Usage</h1>
 <ul>
 <li>Put the file <code><a class="el" href="sse2neon_8h_source.html">sse2neon.h</a></code> in to your source code directory.</li>
@@ -112,7 +112,7 @@ Usage</h1>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md190"></a>
+<h1><a class="anchor" id="autotoc_md186"></a>
 Compile-time Configurations</h1>
 <p >Considering the balance between correctness and performance, <code>sse2neon</code> recognizes the following compile-time configurations:</p><ul>
 <li><code>SSE2NEON_PRECISE_MINMAX</code>: Enable precise implementation of <code>_mm_min_ps</code> and <code>_mm_max_ps</code>. If you need consistent results such as NaN special cases, enable it.</li>
@@ -120,13 +120,13 @@ Compile-time Configurations</h1>
 <li><code>SSE2NEON_PRECISE_SQRT</code>: Enable precise implementation of <code>_mm_sqrt_ps</code> and <code>_mm_rsqrt_ps</code> by additional Netwon-Raphson iteration for accuracy.</li>
 </ul>
 <p >The above are turned off by default, and you should define the corresponding macro(s) as <code>1</code> before including <code><a class="el" href="sse2neon_8h_source.html">sse2neon.h</a></code> if you need the precise implementations.</p>
-<h1><a class="anchor" id="autotoc_md191"></a>
+<h1><a class="anchor" id="autotoc_md187"></a>
 Run Built-in Test Suite</h1>
 <p ><code>sse2neon</code> provides a unified interface for developing test cases. These test cases are located in <code>tests</code> directory, and the input data is specified at runtime. Use the following commands to perform test cases: </p><div class="fragment"><div class="line">$ make check</div>
 </div><!-- fragment --><p >You can specify GNU toolchain for cross compilation as well. <a href="https://www.qemu.org/">QEMU</a> should be installed in advance. </p><div class="fragment"><div class="line">$ make CROSS_COMPILE=aarch64-linux-gnu- check # ARMv8-A</div>
 </div><!-- fragment --><p> or </p><div class="fragment"><div class="line">$ make CROSS_COMPILE=arm-linux-gnueabihf- check # ARMv7-A</div>
 </div><!-- fragment --><p >Check the details via Test Suite for SSE2NEON.</p>
-<h1><a class="anchor" id="autotoc_md192"></a>
+<h1><a class="anchor" id="autotoc_md188"></a>
 Adoptions</h1>
 <p >Here is a partial list of open source projects that have adopted <code>sse2neon</code> for Arm/Aarch64 support.</p><ul>
 <li><a href="https://github.com/johnhues/aether-game-utils">aether-game-utils</a> is a collection of cross platform utilities for quickly creating small game prototypes in C++.</li>
@@ -167,7 +167,7 @@ Adoptions</h1>
 <li><a href="https://github.com/surge-synthesizer/surge">Surge</a> is an open source digital synthesizer.</li>
 <li><a href="https://github.com/xmrig/xmrig">XMRig</a> is an open source CPU miner for <a href="https://web.getmonero.org/">Monero</a> cryptocurrency.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md193"></a>
+<h1><a class="anchor" id="autotoc_md189"></a>
 Related Projects</h1>
 <ul>
 <li><a href="https://github.com/simd-everywhere/simde">SIMDe</a>: fast and portable implementations of SIMD intrinsics on hardware which doesn't natively support them, such as calling SSE functions on ARM.</li>
@@ -179,7 +179,7 @@ Related Projects</h1>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md194"></a>
+<h1><a class="anchor" id="autotoc_md190"></a>
 Reference</h1>
 <ul>
 <li><a href="https://software.intel.com/sites/landingpage/IntrinsicsGuide/">Intel Intrinsics Guide</a></li>
@@ -188,7 +188,7 @@ Reference</h1>
 <li><a href="https://static.docs.arm.com/den0018/a/DEN0018A_neon_programmers_guide_en.pdf">NEON Programmer's Guide</a></li>
 <li><a href="https://github.com/qemu/qemu/blob/master/target/i386/ops_sse.h">qemu/target/i386/ops_sse.h</a>: Comprehensive SSE instruction emulation in C. Ideal for semantic checks.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md195"></a>
+<h1><a class="anchor" id="autotoc_md191"></a>
 Licensing</h1>
 <p ><code>sse2neon</code> is freely redistributable under the MIT License. </p>
 </div></div><!-- contents -->

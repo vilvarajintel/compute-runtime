@@ -65,75 +65,75 @@ $(function() {
   <div class="headertitle"><div class="title">DISTRIBUTIONS </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md77"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md73"></a>
 NEO OpenCL in Linux distributions</h1>
 <p ><a href="https://repology.org/project/intel-compute-runtime/versions"><img src="https://repology.org/badge/vertical-allrepos/intel-compute-runtime.svg" alt="Packaging status" style="pointer-events: none;" class="inline"/></a></p>
-<h2><a class="anchor" id="autotoc_md78"></a>
+<h2><a class="anchor" id="autotoc_md74"></a>
 Arch Linux*</h2>
 <div class="fragment"><div class="line">pacman -S intel-compute-runtime</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md79"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md75"></a>
 Centos* 7, Centos* 8, Centos* 8 Stream, Red Hat Enterprise Linux* 7</h2>
 <div class="fragment"><div class="line">yum install yum-plugin-copr</div>
 <div class="line">yum copr enable jdanecki/intel-opencl</div>
 <div class="line">yum install intel-opencl</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md80"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md76"></a>
 Exherbo Linux*</h2>
 <div class="fragment"><div class="line">cave resolve --execute intel-compute-runtime</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md81"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md77"></a>
 Fedora* 33, 34, 35, rawhide (36), Centos* 9 Stream, Red Hat Enterprise Linux* 8, Mageia* 8</h2>
 <div class="fragment"><div class="line">dnf install dnf-plugins-core</div>
 <div class="line">dnf copr enable jdanecki/intel-opencl</div>
 <div class="line">dnf install intel-opencl</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md82"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md78"></a>
 Mageia* Cauldron</h2>
 <div class="fragment"><div class="line">dnf install dnf-plugins-core</div>
 <div class="line">dnf copr enable jdanecki/intel-opencl mageia-cauldron-x86_64</div>
 <div class="line">dnf install intel-opencl</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md83"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md79"></a>
 Gentoo*, Funtoo*</h2>
 <div class="fragment"><div class="line">emerge intel-neo</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md84"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md80"></a>
 NixOS</h2>
 <div class="fragment"><div class="line">nix-channel --add https://nixos.org/channels/nixpkgs-unstable</div>
 <div class="line">nix-channel --update</div>
 <div class="line">nix-env -i intel-compute-runtime</div>
-</div><!-- fragment --> <h2><a class="anchor" id="autotoc_md85"></a>
+</div><!-- fragment --> <h2><a class="anchor" id="autotoc_md81"></a>
 OpenSUSE Leap 15.2</h2>
 <div class="fragment"><div class="line">zypper addrepo -r https://copr.fedorainfracloud.org/coprs/jdanecki/intel-opencl/repo/opensuse-leap-15.2/jdanecki-intel-opencl-opensuse-leap-15.2.repo</div>
 <div class="line">zypper install intel-opencl</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md86"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md82"></a>
 OpenSUSE Leap 15.3</h2>
 <div class="fragment"><div class="line">zypper addrepo -r https://copr.fedorainfracloud.org/coprs/jdanecki/intel-opencl/repo/opensuse-leap-15.3/jdanecki-intel-opencl-opensuse-leap-15.3.repo</div>
 <div class="line">zypper install intel-opencl</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md87"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md83"></a>
 OpenSUSE tumbleweed</h2>
 <div class="fragment"><div class="line">zypper addrepo -r https://copr.fedorainfracloud.org/coprs/jdanecki/intel-opencl/repo/opensuse-tumbleweed/jdanecki-intel-opencl-opensuse-tumbleweed.repo</div>
 <div class="line">zypper install intel-opencl</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md88"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md84"></a>
 PLD Linux*</h2>
 <div class="fragment"><div class="line">ipoldek install intel-gmmlib intel-graphics-compiler intel-compute-runtime</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md89"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md85"></a>
 Ubuntu* ppa for 18.04, 20.04, 21.04</h2>
 <div class="fragment"><div class="line">add-apt-repository ppa:intel-opencl/intel-opencl</div>
 <div class="line">apt update</div>
 <div class="line">apt install intel-opencl-icd</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md90"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md86"></a>
 Ubuntu* 20.04, 21.04</h2>
 <div class="fragment"><div class="line">apt install intel-opencl-icd</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md91"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md87"></a>
 Conda (Linux glibc&gt;=2.12)</h2>
 <div class="fragment"><div class="line">conda config --add channels conda-forge</div>
 <div class="line">conda install intel-compute-runtime</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md92"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md88"></a>
 Building and installation</h2>
 <ul>
 <li><a href="https://github.com/intel/compute-runtime/blob/master/BUILD.md">Ubuntu*</a></li>
 <li><a href="https://github.com/intel/compute-runtime/blob/master/BUILD.md">Centos* 8</a></li>
 <li>Scripts to build or download rpm (copr) and deb (github and ppa) packages are available in <a href="https://github.com/JacekDanecki/neo-specs">neo-specs</a> repository.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md93"></a>
+<h1><a class="anchor" id="autotoc_md89"></a>
 NEO in other distributions</h1>
-<h2><a class="anchor" id="autotoc_md94"></a>
+<h2><a class="anchor" id="autotoc_md90"></a>
 FreeBSD*, DragonFly*</h2>
 <div class="fragment"><div class="line">pkg install intel-compute-runtime</div>
 </div><!-- fragment --><p >(*) Other names and brands may be claimed as property of others. </p>

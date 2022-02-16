@@ -66,7 +66,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p >File to cover guidelines for NEO project.</p>
-<h1><a class="anchor" id="autotoc_md34"></a>
+<h1><a class="anchor" id="autotoc_md30"></a>
 C++ usage</h1>
 <ul>
 <li>use c++ style casts instead of c style casts.</li>
@@ -78,7 +78,7 @@ C++ usage</h1>
 <li>use of exceptions in driver code needs strong justification</li>
 <li>prefer static create methods returning std::unique_ptr instead of throwing from constructor</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md35"></a>
+<h1><a class="anchor" id="autotoc_md31"></a>
 Naming conventions</h1>
 <ul>
 <li>use snake_case for new files</li>
@@ -97,13 +97,13 @@ Naming conventions</h1>
 <div class="line">TEST(CommandQueueTests, givenCommandQueueWhenEnqueueIsDoneThenTaskLevelIsModifed)</div>
 <div class="line">TEST(CommandQueueTests, givenCommandQueueWithDefaultParamtersWhenEnqueueIsDoneThenTaskCountIncreases)</div>
 <div class="line">TEST(CommandQueueTests, givenCommandQueueWhenEnqueueWithBlockingFlagIsSetThenDriverWaitsUntilAllCommandsAreCompleted)</div>
-</div><!-- fragment --> <h1><a class="anchor" id="autotoc_md36"></a>
+</div><!-- fragment --> <h1><a class="anchor" id="autotoc_md32"></a>
 Testing mindset</h1>
 <ul>
 <li><a class="el" href="structTest.html">Test</a> behaviors instead of implementations, do not focus on adding a test per every function in the class (avoid tests for setters and getters), focus on the functionality you are adding and how it changes the driver behavior, do not bind tests to implementation.</li>
 <li>Make sure that test is fast, our test suite needs to complete in seconds for efficient development pace, as a general rule test shouldn't be longer then 1ms in Debug driver.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md37"></a>
+<h1><a class="anchor" id="autotoc_md33"></a>
 Coding guidelines</h1>
 <ul>
 <li>Favor the design of a self-explanatory code over the use of comments; if comments are needed, use double slash instead of block comments</li>

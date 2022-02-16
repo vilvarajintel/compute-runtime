@@ -65,43 +65,43 @@ $(function() {
   <div class="headertitle"><div class="title">RELEASENOTES_CORE </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md48"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md44"></a>
 Release Notes v1.3</h1>
 <p >Level Zero Core API.</p>
 <p >January 2022</p>
-<h2><a class="anchor" id="autotoc_md49"></a>
+<h2><a class="anchor" id="autotoc_md45"></a>
 Changes in this release:</h2>
-<h3><a class="anchor" id="autotoc_md50"></a>
+<h3><a class="anchor" id="autotoc_md46"></a>
 Implict Scaling</h3>
 <p >Implicit scaling has been enabled by default on Level Zero on Xe HPC (PVC) B and later steppings. The <code>EnableImplicitScaling</code> debug key may be used to enable (<code>EnableImplicitScaling=1</code>) or disable (<code>EnableImplicitScaling=0</code>) implicit scaling on on Xe HPC and other multi-tile architectures.</p>
-<h3><a class="anchor" id="autotoc_md51"></a>
+<h3><a class="anchor" id="autotoc_md47"></a>
 &lt;a href="https://spec.oneapi.io/level-zero/latest/core/api.html#zememfreeext" &gt;Blocking Free&lt;/a&gt;</h3>
 <p >The blocking free memory policy has been implemented for <code>zeMemFreeExt</code> extension. Defer free policy will be added in upcoming releases.</p>
-<h3><a class="anchor" id="autotoc_md52"></a>
+<h3><a class="anchor" id="autotoc_md48"></a>
 &lt;a href="https://spec.oneapi.io/level-zero/latest/core/EXT_PCIProperties.html#pci-properties-extension" &gt;PCI Properties Extension&lt;/a&gt;</h3>
 <p >Support for PCI properties extension has been added via <code>zeDevicePciGetPropertiesExt</code> interface. This currently provides access to device's BDF address only. <a class="el" href="structDevice.html" title="Device.">Device</a> bandwidth property will be exposed in future based on support from underlying components</p>
-<h3><a class="anchor" id="autotoc_md53"></a>
+<h3><a class="anchor" id="autotoc_md49"></a>
 &lt;a href="https://spec.oneapi.io/level-zero/latest/core/EXT_MemoryCompressionHints.html#memory-compression-hints-extension" &gt;Memory Compression Hints&lt;/a&gt;</h3>
 <p >Memory compression hints for shared and device memory allocations and images have been added.</p>
-<h3><a class="anchor" id="autotoc_md54"></a>
+<h3><a class="anchor" id="autotoc_md50"></a>
 Sampler Address Modes Fix</h3>
 <p >Level Zero driver had a bug in the implementation of the ZE_SAMPLER_ADDRESS_MODE_CLAMP_TO_BORDER and ZE_SAMPLER_ADDRESS_MODE_CLAMP address modes, where this were being implemented invertedly. This is now fixed and users can use driver's version to determine which address mode to use. Details on how DPC++ is handling this can be found in:</p>
 <p >[<a href="https://github.com/intel/llvm/blob/756c2e8fb45e44b51b32bd8a22b3c325f17bb5c9/sycl/plugins/level_zero/pi_level_zero.cpp#L5264?">https://github.com/intel/llvm/blob/756c2e8fb45e44b51b32bd8a22b3c325f17bb5c9/sycl/plugins/level_zero/pi_level_zero.cpp#L5264?</a>]</p>
-<h1><a class="anchor" id="autotoc_md55"></a>
+<h1><a class="anchor" id="autotoc_md51"></a>
 Release Notes v1.2</h1>
 <p >Level Zero Core API.</p>
 <p >August 2021</p>
-<h2><a class="anchor" id="autotoc_md56"></a>
+<h2><a class="anchor" id="autotoc_md52"></a>
 Changes in this release:</h2>
-<h3><a class="anchor" id="autotoc_md57"></a>
+<h3><a class="anchor" id="autotoc_md53"></a>
 &lt;a href="https://spec.oneapi.com/level-zero/latest/core/api.html?highlight=relaxed#relaxedalloclimits-enums" &gt;Extension to create image views for planar formats&lt;/a&gt;</h3>
 <p >This extension allows accessing each plane for planar formats and have different interpretations of created images.</p>
 <p ><a class="el" href="structSample.html" title="Sample.">Sample</a> code:</p>
 <p ><a href="https://github.com/intel/compute-runtime/blob/master/level_zero/core/test/black_box_tests/zello_image_view.cpp">https://github.com/intel/compute-runtime/blob/master/level_zero/core/test/black_box_tests/zello_image_view.cpp</a></p>
-<h3><a class="anchor" id="autotoc_md58"></a>
+<h3><a class="anchor" id="autotoc_md54"></a>
 &lt;a href="https://spec.oneapi.io/level-zero/latest/core/api.html?highlight=ze_image_memory_properties_exp_t#_CPPv432ze_image_memory_properties_exp_t" &gt;Extension for querying image properties&lt;/a&gt;</h3>
 <p >This extension allows querying the different properties of an image, such as size, row pitch, and slice pitch.</p>
-<h3><a class="anchor" id="autotoc_md59"></a>
+<h3><a class="anchor" id="autotoc_md55"></a>
 &lt;a href="https://spec.oneapi.io/level-zero/latest/core/api.html?highlight=ze_structure_type_device_properties_1_2#_CPPv439ZE_STRUCTURE_TYPE_DEVICE_PROPERTIES_1_2" &gt;Definition of ZE_STRUCTURE_TYPE_DEVICE_PROPERTIES_1_2 properties&lt;/a&gt;</h3>
 <p ><code>ZE_STRUCTURE_TYPE_DEVICE_PROPERTIES_1_2</code> properties allows users to request driver to return timer resolution in cycles per seconds, as defined v1.2 specification:</p>
 <div class="fragment"><div class="line">ze_api_version_t version;</div>
@@ -120,22 +120,22 @@ Changes in this release:</h2>
 <div class="line">zeDeviceGetProperties(device, &amp;devProperties);</div>
 <div class="line"> </div>
 <div class="line">uint64_t timerResolutionInNanoSeconds = devProperties.timerResolution;</div>
-</div><!-- fragment --> <h3><a class="anchor" id="autotoc_md60"></a>
+</div><!-- fragment --> <h3><a class="anchor" id="autotoc_md56"></a>
 Extension to set preferred allocation for USM shared allocations</h3>
 <p ><a href="https://spec.oneapi.io/level-zero/latest/core/api.html?highlight=mem_alloc_flag_bias_initial_placement#_CPPv447ZE_DEVICE_MEM_ALLOC_FLAG_BIAS_INITIAL_PLACEMENT"><code>ZE_DEVICE_MEM_ALLOC_FLAG_BIAS_INITIAL_PLACEMENT</code></a> and <a href="https://spec.oneapi.io/level-zero/latest/core/api.html?highlight=mem_alloc_flag_bias_initial_placement#_CPPv445ZE_HOST_MEM_ALLOC_FLAG_BIAS_INITIAL_PLACEMENT"><code>ZE_HOST_MEM_ALLOC_FLAG_BIAS_INITIAL_PLACEMENT</code></a> can now be set in <code>ze_device_mem_alloc_flags_t</code> and <code>ze_host_mem_alloc_flags_t</code>, respectively, when creating a shared-alloaction, to indicate the driver where a shared-allocation should be initially placed.</p>
-<h3><a class="anchor" id="autotoc_md61"></a>
+<h3><a class="anchor" id="autotoc_md57"></a>
 &lt;a href="https://spec.oneapi.io/level-zero/latest/core/api.html?highlight=ze_ipc_memory_flag_bias_cached#ze-ipc-memory-flags-t" &gt;IPC Memory Cache Bias Flags&lt;/a&gt;</h3>
 <p ><code>ZE_IPC_MEMORY_FLAG_BIAS_CACHED</code> and <code>ZE_IPC_MEMORY_FLAG_BIAS_UNCACHED</code> can be passed when opening an IPC memory handle with <code>zeMemOpenIpcHandle</code> to set the cache settings of the imported allocation.</p>
-<h3><a class="anchor" id="autotoc_md62"></a>
+<h3><a class="anchor" id="autotoc_md58"></a>
 &lt;a href="https://spec.oneapi.io/level-zero/latest/core/api.html?highlight=ze_kernel_preferred_group_size_properties_t#ze-kernel-preferred-group-size-properties-t" &gt;Support for preferred group size&lt;/a&gt;</h3>
 <p ><code>ze_kernel_preferred_group_size_properties_t</code> can be used through <code>zeKernelGetProperties</code> to query for the preferred multiple group size of a kernel for submission. Submitting a kernel with the preferred group size returned by the driver may improve performance in certain platforms.</p>
-<h3><a class="anchor" id="autotoc_md63"></a>
+<h3><a class="anchor" id="autotoc_md59"></a>
 &lt;a href="https://spec.oneapi.io/level-zero/latest/core/PROG.html#module-build-options" &gt;Module compilation options&lt;/a&gt;</h3>
 <p >Optimization levels can now be passed to <code>zeModuleCreate</code> using the <code>-ze-opt-level</code> option, which are then communicated to the underlying graphics compiler as hint to indicate the level of optimization desired.</p>
-<h3><a class="anchor" id="autotoc_md64"></a>
+<h3><a class="anchor" id="autotoc_md60"></a>
 &lt;a href="https://spec.oneapi.io/level-zero/latest/core/api.html?highlight=zeeventquerytimestampsexp#zeeventquerytimestampsexp" &gt;Extension to read the timestamps of each subdevice&lt;/a&gt;</h3>
 <p >This extension defines the <code>zeEventQueryTimestampsExp</code> interface to query for timestamps of the parent device or all of the available subdevices.</p>
-<h3><a class="anchor" id="autotoc_md65"></a>
+<h3><a class="anchor" id="autotoc_md61"></a>
 &lt;a href="https://spec.oneapi.io/level-zero/latest/core/api.html?highlight=ze_structure_type_device_properties_1_2#kernelschedulinghints" &gt;Extension to set thread arbitration policy&lt;/a&gt;</h3>
 <p >The <code>zeKernelSchedulingHintExp</code> interface allows applications to set the thread arbitration policy desired for the target kernel. Avaialable policies can be queried by application through <code>zeDeviceGetModuleProperties</code> with the <a href="https://spec.oneapi.io/level-zero/latest/core/api.html?highlight=ze_scheduling_hint_exp_properties_t#_CPPv435ze_scheduling_hint_exp_properties_t"><code>ze_scheduling_hint_exp_properties_t</code></a> structure.</p>
 <p >Policies include:</p>
@@ -144,17 +144,17 @@ Extension to set preferred allocation for USM shared allocations</h3>
 <li><code>ZE_SCHEDULING_HINT_EXP_FLAG_ROUND_ROBIN</code></li>
 <li><code>ZE_SCHEDULING_HINT_EXP_FLAG_STALL_BASED_ROUND_ROBIN</code></li>
 </ul>
-<h3><a class="anchor" id="autotoc_md66"></a>
+<h3><a class="anchor" id="autotoc_md62"></a>
 &lt;a href="https://spec.oneapi.io/level-zero/latest/core/EXT_CacheReservation.html#cache-reservation-extension" &gt;Extension for cache reservation&lt;/a&gt;</h3>
 <p >With <code>zeDeviceReserveCacheExt</code>, applications can reserve sections of the GPU cache for exclusive use. Cache level support varies between platforms.</p>
 <p >Likewise, <code>zeDeviceSetCacheAdviceExt</code>, can be used to set a region of the cached as reserved or non-reserved region. If default behavior selected, then non-reserved is used, where region is accessible to all clients or applications.</p>
-<h1><a class="anchor" id="autotoc_md67"></a>
+<h1><a class="anchor" id="autotoc_md63"></a>
 Release Notes v1.1</h1>
 <p >Level Zero Core API.</p>
 <p >April 2021</p>
-<h2><a class="anchor" id="autotoc_md68"></a>
+<h2><a class="anchor" id="autotoc_md64"></a>
 Changes in this release:</h2>
-<h3><a class="anchor" id="autotoc_md69"></a>
+<h3><a class="anchor" id="autotoc_md65"></a>
 Device allocations larger than 4GB size.</h3>
 <p ><a href="https://spec.oneapi.com/level-zero/latest/core/api.html?highlight=relaxed#relaxedalloclimits-enums">https://spec.oneapi.com/level-zero/latest/core/api.html?highlight=relaxed#relaxedalloclimits-enums</a></p>
 <p >L0 driver now allows the allocation of buffers larger than 4GB. To use, the <code>ze_relaxed_allocation_limits_exp_desc_t</code> structure needs to be passed to <code>zeMemAllocHost</code> or <code>zeMemAllocShared</code> as a linked descriptor.</p>
@@ -167,7 +167,7 @@ Device allocations larger than 4GB size.</h3>
 <div class="line">deviceDesc.pNext = &amp;relaxedDesc;</div>
 <div class="line">zeMemAllocDevice(context, &amp;deviceDesc, size, 0, device, &amp;ptr);</div>
 </div><!-- fragment --><p >In addition to this, kernels need to be compiled with <code>ze-opt-greater-than-4GB-buffer-required</code>. This needs to be passed in <code>pBuildFlags</code> field in <code>ze_module_desc_t</code> descriptor while calling <code>zeModuleCreate</code>.</p>
-<h3><a class="anchor" id="autotoc_md70"></a>
+<h3><a class="anchor" id="autotoc_md66"></a>
 zeDeviceGetGlobalTimestamps for CPU/GPU synchronized time.</h3>
 <p ><a href="https://spec.oneapi.com/level-zero/latest/core/api.html?highlight=zedevicegetglobaltimestamps#_CPPv427zeDeviceGetGlobalTimestamps18ze_device_handle_tP8uint64_tP8uint64_t">https://spec.oneapi.com/level-zero/latest/core/api.html?highlight=zedevicegetglobaltimestamps#_CPPv427zeDeviceGetGlobalTimestamps18ze_device_handle_tP8uint64_tP8uint64_t</a></p>
 <p >Returns synchronized Host and device global timestamps.</p>
@@ -179,7 +179,7 @@ zeDeviceGetGlobalTimestamps for CPU/GPU synchronized time.</h3>
 <div class="line">ze_device_mem_alloc_desc_t deviceDesc = {};</div>
 <div class="line">deviceDesc.pNext = &amp;relaxedDesc;</div>
 <div class="line">zeMemAllocDevice(context, &amp;deviceDesc, size, 0, device, &amp;ptr);</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md71"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md67"></a>
 Global work offset</h3>
 <p ><a href="https://spec.oneapi.com/level-zero/latest/core/api.html?highlight=globaloffset#_CPPv426zeKernelSetGlobalOffsetExp18ze_kernel_handle_t8uint32_t8uint32_t8uint32_t">https://spec.oneapi.com/level-zero/latest/core/api.html?highlight=globaloffset#_CPPv426zeKernelSetGlobalOffsetExp18ze_kernel_handle_t8uint32_t8uint32_t8uint32_t</a></p>
 <p >Applications now can set a global work offset to kernels.</p>
@@ -195,7 +195,7 @@ Global work offset</h3>
 <div class="line">uint32_t offsetz = 0;</div>
 <div class="line">zeKernelSetGlobalOffsetExp(kernel, offsetx, offsety, offsetz);</div>
 <div class="line">...</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md72"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md68"></a>
 Atomic floating point properties</h3>
 <p ><a href="https://spec.oneapi.com/level-zero/latest/core/api.html?highlight=ze_structure_type_float_atomic_ext_properties#_CPPv432ze_float_atomic_ext_properties_t">https://spec.oneapi.com/level-zero/latest/core/api.html?highlight=ze_structure_type_float_atomic_ext_properties#_CPPv432ze_float_atomic_ext_properties_t</a></p>
 <p >Applications now can query for floating atomic properties supported by the device in a kernel. This is done by passing <code>ze_float_atomic_ext_properties_t</code> to zeDeviceGetModuleProperties as a linked property structure.</p>
@@ -209,7 +209,7 @@ Atomic floating point properties</h3>
 <div class="line"><span class="keywordflow">if</span> (extendedProperties.fp16Flags &amp; ZE_DEVICE_FP_ATOMIC_EXT_FLAG_GLOBAL_ADD) {</div>
 <div class="line">    <span class="comment">// kernel supports floating atomic add and subtract</span></div>
 <div class="line">}</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md73"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md69"></a>
 Context Creation for specific devices</h3>
 <p ><a href="https://spec.oneapi.com/level-zero/latest/core/api.html?highlight=zecontextcreate#_CPPv417zeContextCreateEx18ze_driver_handle_tPK17ze_context_desc_t8uint32_tP18ze_device_handle_tP19ze_context_handle_t">https://spec.oneapi.com/level-zero/latest/core/api.html?highlight=zecontextcreate#_CPPv417zeContextCreateEx18ze_driver_handle_tPK17ze_context_desc_t8uint32_tP18ze_device_handle_tP19ze_context_handle_t</a></p>
 <p >Added <code>zeContextCreateEX</code> to create a context with a set of devices. Resources allocated against that context are visible only to the devices for which the context was created.</p>
@@ -219,7 +219,7 @@ Context Creation for specific devices</h3>
 <div class="line">devices.push_back(device1);</div>
 <div class="line">...</div>
 <div class="line">zeContextCreateEx(hDriver, &amp;desc, devices.size(), devices.data(), &amp;phContext);</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md74"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md70"></a>
 Change on timer resolution</h3>
 <p ><a href="https://spec.oneapi.com/level-zero/latest/core/api.html?highlight=timerresolution#_CPPv4N22ze_device_properties_t15timerResolutionE">https://spec.oneapi.com/level-zero/latest/core/api.html?highlight=timerresolution#_CPPv4N22ze_device_properties_t15timerResolutionE</a></p>
 <p >Time resolution returned by device properties has been changed to cycles/second (v1.0 has a resolution of nano-seconds). To help libraries with the transtition to the new resolution, the <code>UseCyclesPerSecondTimer</code> variable has been defined. When set to 1, the driver will return the resolution defined for v1.1 (cycles/second), otherwise, it will still return the resolution for v1.0 (nanoseconds). The use of this environment variable is only temporal while applications and libraries complete their transition to v1.1 and will be eventually eliminated, leaving the resolution for v1.1 as default.</p>
